@@ -5,8 +5,9 @@
 
 
 Rolling to hit
-  - roll for ac (your ac is 16)
-  - roll for damage (your greatclub does 1d8+1 bludgeoning, your attach modifier is +3)
+  - roll for ac
+  - roll for damage
 
 Instant death
-  - When damage reduces you to 0 hit points and there is damage remaining, you die if the remaining damage equals or exceeds your hit point maximum.
+  - When damage reduces you to 0 hit points and there is damage remaining,
+  you die if the remaining damage equals or exceeds your hit point maximum.
