@@ -1,0 +1,79 @@
+-----------
+ ██▓ ███▄    █ ██▒   █▓▓█████  ███▄    █ ▄▄▄█████▓ ▒█████   ██▀███ ▓██   ██▓
+▓██▒ ██ ▀█   █▓██░   █▒▓█   ▀  ██ ▀█   █ ▓  ██▒ ▓▒▒██▒  ██▒▓██ ▒ ██▒▒██  ██▒
+▒██▒▓██  ▀█ ██▒▓██  █▒░▒███   ▓██  ▀█ ██▒▒ ▓██░ ▒░▒██░  ██▒▓██ ░▄█ ▒ ▒██ ██░
+░██░▓██▒  ▐▌██▒ ▒██ █░░▒▓█  ▄ ▓██▒  ▐▌██▒░ ▓██▓ ░ ▒██   ██░▒██▀▀█▄   ░ ▐██▓░
+░██░▒██░   ▓██░  ▒▀█░  ░▒████▒▒██░   ▓██░  ▒██▒ ░ ░ ████▓▒░░██▓ ▒██▒ ░ ██▒▓░
+░▓  ░ ▒░   ▒ ▒   ░ ▐░  ░░ ▒░ ░░ ▒░   ▒ ▒   ▒ ░░   ░ ▒░▒░▒░ ░ ▒▓ ░▒▓░  ██▒▒▒
+ ▒ ░░ ░░   ░ ▒░  ░ ░░   ░ ░  ░░ ░░   ░ ▒░    ░      ░ ▒ ▒░   ░▒ ░ ▒░▓██ ░▒░
+ ▒ ░   ░   ░ ░     ░░     ░      ░   ░ ░   ░      ░ ░ ░ ▒    ░░   ░ ▒ ▒ ░░
+ ░           ░      ░     ░  ░         ░              ░ ░     ░     ░ ░
+                   ░                                                ░ ░
+-----------
+Inventory:
+  - GOLD:
+    - 5210
+      - can buy 17 revives
+
+  - ARMOUR:
+    EQUIPED: Platemail
+    EQUIPED: Hooved Boots!
+    armour_list:
+      - Platemail:
+        - AC: 18
+      - Hooved Boots:
+        - advantage on stealth checks
+        - allows you to perform a kicking attack
+      - Spiked Boots
+        - advantage on climbing?
+      - Mountain Picks
+        - advantage on climbing?
+
+  - WEAPONS:
+    EQUIPED: Fey Queen's Staff of the Woodlands
+    weapon_list:
+    - Fell's Staff of True Sight ( 1d8 + 2 bludgeoning )
+    - Greatclub (1d8 + 4 bludgeoning)
+    - Throwing Daggers
+    - Holy Water
+      notes:
+        - improvised weapon
+        - only effecrs fiend or undead
+      melee:
+        damage_type: radiant
+        base_damage: 2d6
+    - Fey Queen's Staff of the Woodlands:
+      melee:
+        reach: 5
+        hit_modifier: 8
+        base_damage: 1d8
+        damage_type: bludgeoning
+        damage_modifer: 4
+      effects:
+        melee:
+          damage_modifier: 2
+          hit_modifier: 2
+        spells:
+          spell_attack_modifier: 2
+        other:
+         - tree form: You can use an action to plant one end of the staff in fertile earth and expend 1 charge to transform the staff into a healthy tree.
+         The tree is 60 feet tall and has a 5-foot-diameter trunk, and its branches at the top spread out in a 20-foot radius.
+         The tree appears ordinary but radiates a faint aura of transmutation magic if targeted by detect magic.
+         While touching the tree and using another action to speak its command word, you return the staff to its normal form.
+
+  - GENERAL:
+    - COMESTABLES:
+      - Red Mushrooms: 3
+      - Green Mushrooms: 3
+      - Jelly Freakin: 10
+      - Odd Coco Drops: 9
+      - Extroadinary Mint: 9
+    - POTIONS:
+      - 2 Potions of Greater Healing (4d4)
+      - 1 Potion of Hiding From Beats
+    - MISC:
+      - Sage Beard Leaves:
+        - Looks like an old mans Beard
+        - ground up to create a salve which has some healing properties
+      - 2 Old Occult Books: they're dusty
+      - Pan Pipe: you can play really well bro

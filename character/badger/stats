@@ -1,0 +1,91 @@
+------------
+  ██████ ▄▄▄█████▓ ▄▄▄     ▄▄▄█████▓  ██████
+▒██    ▒ ▓  ██▒ ▓▒▒████▄   ▓  ██▒ ▓▒▒██    ▒
+░ ▓██▄   ▒ ▓██░ ▒░▒██  ▀█▄ ▒ ▓██░ ▒░░ ▓██▄
+  ▒   ██▒░ ▓██▓ ░ ░██▄▄▄▄██░ ▓██▓ ░   ▒   ██▒
+▒██████▒▒  ▒██▒ ░  ▓█   ▓██▒ ▒██▒ ░ ▒██████▒▒
+▒ ▒▓▒ ▒ ░  ▒ ░░    ▒▒   ▓▒█░ ▒ ░░   ▒ ▒▓▒ ▒ ░
+░ ░▒  ░ ░    ░      ▒   ▒▒ ░   ░    ░ ░▒  ░ ░
+░  ░  ░    ░        ░   ▒    ░      ░  ░  ░
+      ░                 ░  ░              ░
+------------
+
+INSIPRATION PPOINTS: 1
+
+------------
+
+Current Status:
+  - Hit Points: 21 (-8)
+  - Death Saves Passed: 0/3
+  - Death Saves Failed: 0/3
+  - Effects:
+    - prone
+------------
+
+Party Health:
+  - Gloria: Healthy (-13)
+  - Travok: Healthy (-28)
+  - Dogo: Healthy (-7)
+  - Lucious: Healthy (-7)
+  - Spruce: Healthy (0)
+
+------------
+
+Level: 5
+
+Strength: 15 (+ 2)
+Dexterity: 11 (+ 0)
+Constitution: 11 (+ 0)
+Intelligence: 16 (+ 3)
+Wisdom: 17 (+ 3)
+Charisma: 9 (- 1)
+
+Passive Wisdom (Perception): 13
+
+Armour Class: 18
+Initiative: 0
+Speed: 25
+Max Hit Points: 29
+Proficiency bonus: +3
+
+Spellcasting Ability: Wisdom
+Spell Attack Bonus: +6 (proficiency bonus + Spellcasting Ability modifier)
+Spell Save DC: 14 (8 + proficiency bonus + Spellcasting Ability modifier)
+
+Attacking
+ - Attack Bonus: +5 (Proficiency Bonus + Ability (Strength) Bonus)
+   - add your attack bonus to 'to hit' rolls
+
+Weapons:
+  - Great Club:
+    - Damage: 1d8 + 2 Bludgeoning
+  - Fell's Staff of True Sight:
+    - Damage: 1d8 + 2 Bludgeoning
+
+Languages: Common, Gnomish
+
+Proficiencies:
+ - Weapon: Simple
+ - Armor: Light armor, medium armor, shields Weapons: All simple weapons
+ - Tools: None
+ - Saving Throws: Wisdom, Charisma
+ - Skills: History, Insight, Medicine, Persuasion, Religion
+
+Hit Dice: 5d8
+
+Hit Point History
+Level 1: 6
+Level 2: 9
+Level 3: 16
+Level 4: 21
+Level 5: 29
+
+Speak with SmallBeasts:
+  - Through sounds and gestures, you can communicate simple ideas with Small or smaller beasts.
+
+Forest gnomes love animals and often keep:
+     - squirrels,
+     - badgers,
+     - rabbits,
+     - moles,
+     - woodpeckers
