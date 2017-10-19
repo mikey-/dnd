@@ -30,7 +30,7 @@ Inventory:
         - advantage on climbing?
 
   - WEAPONS:
-    EQUIPED: Fey Queen's Staff of the Woodlands
+    EQUIPED: Fey Queen's Staff of the Woodlands (vs AC: 1d20+8+2, Damage: 1d8+4+2)
     weapon_list:
     - Fell's Staff of True Sight ( 1d8 + 2 bludgeoning )
     - Greatclub (1d8 + 4 bludgeoning)

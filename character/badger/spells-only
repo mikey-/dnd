@@ -21,15 +21,15 @@ Race Cantrips: 1
 
 Total Level 1 Spell Slots: 4
 Total Level 2 Spell Slots: 3
-Total Level 3 Spell Slots: 2
+Total Level 3 Spell Slots: 3
 
-Used Level 1 Spell Slots: 4
-Used Level 2 Spell Slots: 2
-Used Level 3 Spell Slots: 1
+Used Level 1 Spell Slots: 0
+Used Level 2 Spell Slots: 0
+Used Level 3 Spell Slots: 0
 
 ---------------------------------
 
-Known Spells: Cleric Level + wisdom modifier (5 + 3)
+Known Spells: 9 Cleric Level + wisdom modifier (6 + 3)
 
 Known Cantrips:
   - Druid:
@@ -59,7 +59,7 @@ Known Spells:
     - Plant Growth
     - Wind Wall
 
-  - Next level (Blink? Sending?)
+  - Next level (Blink? Sending? Hold person, tongues)
 ---------------------------------
 Ritual Casting:
 You can cast a cleric spell as a ritual if that spell has the ritual tag and you have the spell prepared.
@@ -69,6 +69,7 @@ You can use a holy symbol (found in chapter 5) as a spellcasting focus for your 
 ---------------------------------
 
 Channel Divinity:
+  - Usage: Twice per short or long rest
   - Turn Undead:
     - As an action, you present your holy symbol and speak a prayer censuring the undead.
     - Each undead that can see or hear you within 30 feet of you must make a Wisdom saving throw.
@@ -88,11 +89,11 @@ Channel Divinity:
           - Cleric Level 14: 3 or lower
           - Cleric Level 17: 4 or lower
   - Charm Animals and Plants:
-  - You can use your Channel Divinity to charm animals and plants.
-  - As an action, you present your holy symbol and invoke the name of your deity.
-  - Each beast or plant creature that can see you within 30 feet of you must make a Wisdom saving throw.
-  - If the creature fails its saving throw, it is charmed by you for 1 minute or until it takes damage.
-  - While it is charmed by you, it is friendly to you and other creatures you designate.
+    You can use your Channel Divinity to charm animals and plants.
+    As an action, you present your holy symbol and invoke the name of your deity.
+    Each beast or plant creature that can see you within 30 feet of you must make a Wisdom saving throw.
+    If the creature fails its saving throw, it is charmed by you for 1 minute or until it takes damage.
+    While it is charmed by you, it is friendly to you and other creatures you designate.
 
 ------------------------------------------
 
@@ -400,3 +401,23 @@ Spells:
       - That creature returns to life with 1 hit point.
       - This spell can’t return to life a creature that has died of old age
       - nor can it restore any missing body parts.
+
+  - Spirit Guardians:
+    - 3rd-level conjuration
+    - Casting Time: 1 action
+    - Range: Self (15-foot radius)
+    - Components: V, S, M (a holy symbol)
+    - Duration: Concentration, up to 10 minutes
+    Description:
+      - You call forth spirits of the Badgarra Guinroe Forest to protect you.
+      - Badgers flit around you to a distance of 15 feet for the duration.
+      - If you are good or neutral, their spectral form appears angelic or fey (your choice). If you are evil, they appear fiendish.
+      - When you cast this spell, you can designate any number of creatures you can see to be unaffected by it.
+      - Affected creatures:
+        - Speed is halved in the area,
+        - Entering (first time) or Starts its turn in area:
+          - It must make a Wisdom saving throw:
+            - Failed Save: The creature takes 3d8 radiant damage (if you are good or neutral) or 3d8 necrotic damage (if you are evil).
+            - Successful Save: The creature takes half as much damage.
+    - At Higher Levels:
+      - When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d8 for each slot level above 3rd.

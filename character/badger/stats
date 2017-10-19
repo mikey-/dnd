@@ -15,23 +15,22 @@ INSIPRATION PPOINTS: 1
 ------------
 
 Current Status:
-  - Hit Points: 21 (-8)
+  - Hit Points: 29 (0)
   - Death Saves Passed: 0/3
   - Death Saves Failed: 0/3
   - Effects:
-    - prone
 ------------
 
 Party Health:
-  - Gloria: Healthy (-13)
-  - Travok: Healthy (-28)
-  - Dogo: Healthy (-7)
-  - Lucious: Healthy (-7)
-  - Spruce: Healthy (0)
+  - Gloria: Healthy ?/? (?)
+  - Travok: Healthy ?/? (?)
+  - Dogo: Healthy ?/? (?)
+  - Lucious: Healthy ?/? (?)
+  - Spruce: Healthy ?/? (?)
 
 ------------
 
-Level: 5
+Level: 6
 
 Strength: 15 (+ 2)
 Dexterity: 11 (+ 0)
@@ -45,33 +44,27 @@ Passive Wisdom (Perception): 13
 Armour Class: 18
 Initiative: 0
 Speed: 25
-Max Hit Points: 29
+Max Hit Points: 36
 Proficiency bonus: +3
 
 Spellcasting Ability: Wisdom
 Spell Attack Bonus: +6 (proficiency bonus + Spellcasting Ability modifier)
 Spell Save DC: 14 (8 + proficiency bonus + Spellcasting Ability modifier)
 
-Attacking
+Attacking:
  - Attack Bonus: +5 (Proficiency Bonus + Ability (Strength) Bonus)
    - add your attack bonus to 'to hit' rolls
-
-Weapons:
-  - Great Club:
-    - Damage: 1d8 + 2 Bludgeoning
-  - Fell's Staff of True Sight:
-    - Damage: 1d8 + 2 Bludgeoning
 
 Languages: Common, Gnomish
 
 Proficiencies:
  - Weapon: Simple
- - Armor: Light armor, medium armor, shields Weapons: All simple weapons
+ - Armor: Light, Medium, Heavy, shields
  - Tools: None
  - Saving Throws: Wisdom, Charisma
- - Skills: History, Insight, Medicine, Persuasion, Religion
+ - Skills: Animal Handling, History, Insight, Nature, Religion
 
-Hit Dice: 5d8
+Hit Dice: 6d8
 
 Hit Point History
 Level 1: 6
@@ -79,6 +72,17 @@ Level 2: 9
 Level 3: 16
 Level 4: 21
 Level 5: 29
+Level 6: 36
+
+Dampen Elements:
+  - Starting at 6th level
+  - When you or a creature within 30 feet of you takes damage of type:
+    - acid
+    - cold
+    - fire
+    - lightning
+    - thunder
+  - you can use your reaction to grant resistance to the creature against that instance of the damage.
 
 Speak with SmallBeasts:
   - Through sounds and gestures, you can communicate simple ideas with Small or smaller beasts.
