@@ -12,7 +12,7 @@
 -----------
 Inventory:
   - GOLD:
-    - 5210
+    - 5185
       - can buy 17 revives
 
   - ARMOUR:
@@ -36,12 +36,18 @@ Inventory:
     - Greatclub (1d8 + 4 bludgeoning)
     - Throwing Daggers
     - Holy Water
-      notes:
+      Quantity: 0 (7 pending)
+      Notes:
         - improvised weapon
         - only effecrs fiend or undead
-      melee:
+      Melee:
         damage_type: radiant
         base_damage: 2d6
+      Making Holy Water:
+        The ritual takes 1 hour to perform,
+        uses 25 gp worth of powdered silver,
+        and requires the caster to expend a 1st-level spell slot.
+
     - Fey Queen's Staff of the Woodlands:
       melee:
         reach: 5
@@ -52,6 +58,7 @@ Inventory:
       effects:
         melee:
           damage_modifier: 2
+          damage_type: radiant
           hit_modifier: 2
         spells:
           spell_attack_modifier: 2
@@ -63,17 +70,23 @@ Inventory:
 
   - GENERAL:
     - COMESTABLES:
-      - Red Mushrooms: 3
-      - Green Mushrooms: 3
-      - Jelly Freakin: 10
-      - Odd Coco Drops: 9
-      - Extroadinary Mint: 9
+        Red Mushrooms: 3
+        Green Mushrooms: 3
+        Jelly Freakin: 10
+        Odd Coco Drops: 9
+        Extroadinary Mint: 9
     - POTIONS:
-      - 2 Potions of Greater Healing (4d4)
-      - 1 Potion of Hiding From Beats
+      Potion of Greater Healing:
+        qantity: 2
+        effects:
+          heal: 4d4
+      Potion of Hiding From Beasts:
+        quantity: 1
+        effect:
+          hide_from: beasts
     - MISC:
-      - Sage Beard Leaves:
-        - Looks like an old mans Beard
-        - ground up to create a salve which has some healing properties
-      - 2 Old Occult Books: they're dusty
-      - Pan Pipe: you can play really well bro
+      Sage Beard Leaves:
+        Looks like an old mans Beard
+        ground up to create a salve which has some healing properties
+      2 Old Occult Books: they're dusty
+      Pan Pipe: you can play really well bro
