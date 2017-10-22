@@ -15,18 +15,23 @@ INSIPRATION PPOINTS: 1
 ------------
 
 Current Status:
-  - Hit Points: 29 (0)
-  - Death Saves Passed: 0/3
-  - Death Saves Failed: 0/3
-  - Effects:
+  Hit Points: 13/36 (-23)
+  Death Saves Passed: 0/3
+  Death Saves Failed: 0/3
+  Effects:
 ------------
 
 Party Health:
-  - Gloria: Healthy ?/? (?)
-  - Travok: Healthy ?/? (?)
-  - Dogo: Healthy ?/? (?)
-  - Lucious: Healthy ?/? (?)
-  - Spruce: Healthy ?/? (?)
+  Gloria: Critical 17/? (0)
+    death saves failed: 0
+    death saves passed: 0
+  Travok: Wounded 26/? (-10)
+  Dogo: Critical 24/60 (-7)
+  Lucious: Dead 0/40 (-30)
+    death saves failed: 0
+    death saves passed: 0
+  Blizzard: Damaged 34/? (-9)
+  Spruce: Healthy ?/? (?)
 
 ------------
 
@@ -66,13 +71,15 @@ Proficiencies:
 
 Hit Dice: 6d8
 
-Hit Point History
+Hit Point History:
 Level 1: 6
 Level 2: 9
 Level 3: 16
 Level 4: 21
 Level 5: 29
 Level 6: 36
+
+Darkvision: 60
 
 Dampen Elements:
   - Starting at 6th level
@@ -82,14 +89,44 @@ Dampen Elements:
     - fire
     - lightning
     - thunder
-  - you can use your reaction to grant resistance to the creature against that instance of the damage.
+  - you can use your reaction to grant resistance to the creature against that
+  instance of the damage.
 
 Speak with SmallBeasts:
-  - Through sounds and gestures, you can communicate simple ideas with Small or smaller beasts.
+  Through sounds and gestures, you can communicate simple ideas with Small
+  or smaller beasts.
 
 Forest gnomes love animals and often keep:
-     - squirrels,
-     - badgers,
-     - rabbits,
-     - moles,
+     - squirrels
+     - badgers
+     - rabbits
+     - moles
      - woodpeckers
+
+Saving Throws:
+  Strength: 2
+  Dexterity: 0
+  Constitution: 0
+  Intelligence: 3
+  Wisdom: 6
+  Charisma: 2
+
+Skills:
+  Acrobatics: 0
+  Animal Handling: 3
+  Arcana: 3
+  Althetics: 3
+  Deception: -1
+  History: 6
+  Insight: 6
+  Intimidation: -1
+  Investigation: -1
+  Medicine: 6
+  Narture: 6
+  Perception: 3
+  Performance: -1
+  Persuasion: -1
+  Religion: 6
+  Sleight of Hand: 0
+  Stealth: 0
+  Survival: 3
