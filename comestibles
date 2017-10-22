@@ -11,8 +11,15 @@
 ░                                                               ░
 --------
 Comestibles:
-  - Food:
+  - Plants:
     - Ice Safron: "sweet and safron (^:"
+    - Sage Beard Leaves:
+      - Looks like an old mans Beard
+      - ground up to create a salve which has some healing properties
+    - Red Mushrooms:
+      effects: paralyzed
+    - Green Mushrooms:
+
 
   - Candy:
     - Confusing Taffy:
