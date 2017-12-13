@@ -25,7 +25,7 @@ Used Level 1 Spell Slots: 0
 Known Spells:
 
 Known Cantrips:
-  - Cleric:
+  - Sorcerer:
     - Chill Touch
     - Fire Bolt
     - Friends
@@ -42,12 +42,119 @@ Known Spells:
 
 Cantrips:
   - Tiefling Cantrips:
-    - Thaumaturgy
+    - Thaumaturgy:
+      Type: Transmutation
+      Casting Time: 1 action
+      Range: 30 feet
+      Components: V
+      Duration: Up to 1 minute
+      Description:
+        You manifest a minor wonder, a sign of supernatural power, within range.
+        You create one of the following magical effects within range:
+          - Your voice booms up to three times as loud as normal for 1 minute.
+          - You cause flames to flicker, brighten, dim, or change color for
+            1 minute.
+          - You cause harmless tremors in the ground for 1 minute.
+          - You create an instantaneous sound that originates from a point of
+            your choice within range, such as a rumble of thunder, the cry of a
+            raven, or ominous whispers.
+          - You instantaneously cause an unlocked door or win­ dow to fly open
+            or slam shut.
+          - You alter the appearance of your eyes for 1 minute.
+      multiple casts:
+        you can have up to three of its 1-minute effects active
+        at a time, and you can dismiss such an effect as an action.
+
   - Sorcerer Catnips:
     - Chill Touch:
+      Type: Necromancy
+      Casting Time: 1 action
+      Range: 120 feet
+      Components: V, S
+      Duration: 1 round
+      Description:
+        You create a ghostly, skeletal hand in the space of a creature within
+        range. Make a ranged spell attack against the creature to assail it
+        with the chill of the grave. On a hit, the target takes 1d8 necrotic
+        damage, and it can’t regain hit points until the start of your next
+        turn. Until then, the hand clings to the target. If you hit an undead
+        target, it also has disadvantage on attack rolls against you until the
+        end of your next turn.
+      Higher Levels:
+        This spell’s damage increases by 1d8 when you reach 5th level (2d8),
+        11th level (3d8), and 17th level (4d8).
+
     - Fire Bolt:
+      Type: Evocation
+      Casting Time: 1 action
+      Range: 120 feet
+      Components: V, S
+      Duration: Instantaneous
+      Description:
+        You hurl a mote of fire at a creature or object within range. Make a
+        ranged spell attack against the target. On a hit, the target takes 1d10
+        fire damage. A flammable object hit by this spell ignites if it isn't
+        being worn or carried. This spell’s damage increases by 1d10 when you
+        reach 5th level (2d10), 11th level (3d10), and 17th level (4d10).
+
     - Friends:
+        Type: Enchantment
+        Casting Time: 1 action
+        Range: Self
+        Components: S, M (a small amount of makeup applied to the face as this spell is cast)
+        Duration: Concentration, up to 1 minute
+        Description:
+          For the duration, you have advantage on all Charisma checks directed
+          at one creature of your choice that isn’t hostile toward you. When
+          the spell ends, the creature realizes that you used magic to
+          influence its mood and becomes hostile toward you. A creature prone
+          to violence might attack you. Another creature might seek retribution
+          in other ways (at the DM’s discretion), depending on the nature of
+          your interaction with it.
+
     - Message:
+      Type: Transmutation
+      Casting Time: 1 action
+      Range: 120 feet
+      Components: V, S, M (a short piece of copper wire)
+      Duration: 1 round
+      Description:
+        You point your finger toward a creature within range and whisper a
+        message. The target (and only the target) hears the message and can
+        reply in a whisper that only you can hear. You can cast this spell
+        through solid objects if you are familiar with the target and know it
+        is beyond the barrier. Magical silence. 1 foot of stone, 1 inch of
+        common metal, a thin sheet of lead, or 3 feet of wood blocks the spell.
+        The spell doesn’t have to follow a straight line and can travel freely
+        around corners or through openings.
 
 Spells:
   - Chromatic Orb:
+    Level: 1
+    Type: Evocation
+    Casting Time: 1 action
+    Range: 90 feet
+    Components: V, S, M (a diamond worth at least 50 gp)
+    Duration: Instantaneous
+    Description:
+      You hurl a 4-inch-diameter sphere of energy at a creature that you can
+      see within range. You choose acid, cold, fire, lightning, poison, or
+      thunder for the type of orb you create, and then make a ranged spell
+      attack against the target. If the attack hits, the creature takes 3d8
+      damage of the type you chose.
+    HigherLevels:
+      When you cast this spell using a spell slot of 2nd level or
+      higher, the damage increases by 1d8 for each slot level above 1st.
+
+  - Mage Armor:
+    Level: 1
+    Type: Abjuration
+    Casting Time: 1 action
+    Range: Touch
+    Components: V, S, M (a piece of cured leather)
+    Duration: 8 hours
+    Description:
+      You touch a willing creature who isn’t wearing armor, and a
+      protective magical force surrounds it until the spellends. The target’s
+      base AC becomes 13 + its Dexterity modifier. The spell ends if the target
+      dons armor or ifyou dismiss the spell as an action.

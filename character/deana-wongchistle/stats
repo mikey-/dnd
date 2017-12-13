@@ -32,12 +32,13 @@ Physical Traits:
   Size: Meduim
   Movememnt: 30
   Darkvision: 60
+  Hight: 4' 5"
 
 Health:
-  Hit Points: 0/0 ()
+  Hit Points: 8/8 ()
   Hit Point History:
-  Death Saves Passed: 0/3
-  Death Saves Failed: 0/3
+    Death Saves Passed: 0/3
+    Death Saves Failed: 0/3
   Effects:
 
 Misc:
@@ -45,8 +46,9 @@ Misc:
   Resistances:
     - fire damage
   Languages: Common, Infernal
-  Background: Monster Hunter (survival + history proficiency, Forgery Kit, Disguise Kit)
+  Background: Monster Hunter (Survival + History Proficiency, Disguise Kit)
   Inspiration Points: 0
+  Alignment: Chaotic Good
 
 Combat:
   # add your attack bonus to rolls against AC
