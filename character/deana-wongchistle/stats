@@ -1,0 +1,93 @@
+------------
+  ██████ ▄▄▄█████▓ ▄▄▄     ▄▄▄█████▓  ██████
+▒██    ▒ ▓  ██▒ ▓▒▒████▄   ▓  ██▒ ▓▒▒██    ▒
+░ ▓██▄   ▒ ▓██░ ▒░▒██  ▀█▄ ▒ ▓██░ ▒░░ ▓██▄
+  ▒   ██▒░ ▓██▓ ░ ░██▄▄▄▄██░ ▓██▓ ░   ▒   ██▒
+▒██████▒▒  ▒██▒ ░  ▓█   ▓██▒ ▒██▒ ░ ▒██████▒▒
+▒ ▒▓▒ ▒ ░  ▒ ░░    ▒▒   ▓▒█░ ▒ ░░   ▒ ▒▓▒ ▒ ░
+░ ░▒  ░ ░    ░      ▒   ▒▒ ░   ░    ░ ░▒  ░ ░
+░  ░  ░    ░        ░   ▒    ░      ░  ░  ░
+      ░                 ░  ░              ░
+------------
+
+General:
+  Level: 1
+  Proficiency bonus: +2
+  Ability Scores:
+    Strength: 8 (- 1)
+    Dexterity: 14 (+ 2)
+    Constitution: 14 (+ 2)
+    Intelligence: 12 (+ 1)
+    Wisdom: 9 (- 1)
+    Charisma: 17 (+ 3)
+  Saving Throws:
+    STR: -1
+    DEX: +2
+    CON: +4
+    INT: +1
+    WIS: -1
+    CHA: +5
+
+Physical Traits:
+  Size: Meduim
+  Movememnt: 30
+  Darkvision: 60
+
+Health:
+  Hit Points: 0/0 ()
+  Hit Point History:
+  Death Saves Passed: 0/3
+  Death Saves Failed: 0/3
+  Effects:
+
+Misc:
+  Passive Wisdom (Perception): 9
+  Resistances:
+    - fire damage
+  Languages: Common, Infernal
+  Background: Monster Hunter (survival + history proficiency, Forgery Kit, Disguise Kit)
+  Inspiration Points: 0
+
+Combat:
+  # add your attack bonus to rolls against AC
+  # Attack Bonus is your Proficiency Bonus + Ability (Strength) Bonus
+  Attack Bonus: +1
+  Armour Class: 12
+  Initiative: +2
+  Max Hit Points: 8
+
+Spellcasting:
+  Spellcasting Ability: Charisma
+  # Spell Attack Bonus = Proficiency Bonus + Spellcasting Ability modifier
+  Spell Attack Bonus: +5
+  # Spell Save DC = 8 + Proficiency Bonus + Spellcasting Ability modifier
+  Spell Save DC: 15
+
+Proficiencies:
+ - Weapon: Dagger, Dart, Sling, Quarterstaff, Crossbow, light
+ - Armor: None
+ - Tools: None
+ - Saving Throws: Constitution, Charisma
+ - Skills: Animal Handling, History, Insight, Nature, Religion
+
+Hit Dice: 1d6
+
+Skills:
+  Acrobatics: +2
+  Animal Handling: -1
+  Arcana: +1
+  Althetics: -1
+  Deception*: +5
+  History*: +3
+  Insight: -1
+  Intimidation: +3
+  Investigation: +1
+  Medicine: -1
+  Narture: +1
+  Perception: -1
+  Performance: +3
+  Persuasion*: +5
+  Religion: +1
+  Sleight of Hand: +2
+  Stealth: +2
+  Survival*: +1
