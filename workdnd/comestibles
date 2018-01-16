@@ -1,45 +1,17 @@
---------
- ▄████▄   ▒█████   ███▄ ▄███▓▓█████   ██████ ▄▄▄█████▓ ██▓ ▄▄▄▄    ██▓    ▓█████   ██████
-▒██▀ ▀█  ▒██▒  ██▒▓██▒▀█▀ ██▒▓█   ▀ ▒██    ▒ ▓  ██▒ ▓▒▓██▒▓█████▄ ▓██▒    ▓█   ▀ ▒██    ▒
-▒▓█    ▄ ▒██░  ██▒▓██    ▓██░▒███   ░ ▓██▄   ▒ ▓██░ ▒░▒██▒▒██▒ ▄██▒██░    ▒███   ░ ▓██▄
-▒▓▓▄ ▄██▒▒██   ██░▒██    ▒██ ▒▓█  ▄   ▒   ██▒░ ▓██▓ ░ ░██░▒██░█▀  ▒██░    ▒▓█  ▄   ▒   ██▒
-▒ ▓███▀ ░░ ████▓▒░▒██▒   ░██▒░▒████▒▒██████▒▒  ▒██▒ ░ ░██░░▓█  ▀█▓░██████▒░▒████▒▒██████▒▒
-░ ░▒ ▒  ░░ ▒░▒░▒░ ░ ▒░   ░  ░░░ ▒░ ░▒ ▒▓▒ ▒ ░  ▒ ░░   ░▓  ░▒▓███▀▒░ ▒░▓  ░░░ ▒░ ░▒ ▒▓▒ ▒ ░
-  ░  ▒     ░ ▒ ▒░ ░  ░      ░ ░ ░  ░░ ░▒  ░ ░    ░     ▒ ░▒░▒   ░ ░ ░ ▒  ░ ░ ░  ░░ ░▒  ░ ░
-░        ░ ░ ░ ▒  ░      ░      ░   ░  ░  ░    ░       ▒ ░ ░    ░   ░ ░      ░   ░  ░  ░
-░ ░          ░ ░         ░      ░  ░      ░            ░   ░          ░  ░   ░  ░      ░
-░                                                               ░
---------
+# +============================================================================================+
+# |  ▄████▄   ▒█████   ███▄ ▄███▓▓█████   ██████ ▄▄▄█████▓ ██▓ ▄▄▄▄    ██▓    ▓█████   ██████  |
+# | ▒██▀ ▀█  ▒██▒  ██▒▓██▒▀█▀ ██▒▓█   ▀ ▒██    ▒ ▓  ██▒ ▓▒▓██▒▓█████▄ ▓██▒    ▓█   ▀ ▒██    ▒  |
+# | ▒▓█    ▄ ▒██░  ██▒▓██    ▓██░▒███   ░ ▓██▄   ▒ ▓██░ ▒░▒██▒▒██▒ ▄██▒██░    ▒███   ░ ▓██▄    |
+# | ▒▓▓▄ ▄██▒▒██   ██░▒██    ▒██ ▒▓█  ▄   ▒   ██▒░ ▓██▓ ░ ░██░▒██░█▀  ▒██░    ▒▓█  ▄   ▒   ██▒ |
+# | ▒ ▓███▀ ░░ ████▓▒░▒██▒   ░██▒░▒████▒▒██████▒▒  ▒██▒ ░ ░██░░▓█  ▀█▓░██████▒░▒████▒▒██████▒▒ |
+# | ░ ░▒ ▒  ░░ ▒░▒░▒░ ░ ▒░   ░  ░░░ ▒░ ░▒ ▒▓▒ ▒ ░  ▒ ░░   ░▓  ░▒▓███▀▒░ ▒░▓  ░░░ ▒░ ░▒ ▒▓▒ ▒ ░ |
+# |   ░  ▒     ░ ▒ ▒░ ░  ░      ░ ░ ░  ░░ ░▒  ░ ░    ░     ▒ ░▒░▒   ░ ░ ░ ▒  ░ ░ ░  ░░ ░▒  ░ ░ |
+# | ░        ░ ░ ░ ▒  ░      ░      ░   ░  ░  ░    ░       ▒ ░ ░    ░   ░ ░      ░   ░  ░  ░   |
+# | ░ ░          ░ ░         ░      ░  ░      ░            ░   ░          ░  ░   ░  ░      ░   |
+# | ░                                                               ░                          |
+# +============================================================================================+
 Comestibles:
-  - Plants:
-    - Ice Safron: "sweet and safron (^:"
-    - Sage Beard Leaves:
-      - Looks like an old mans Beard
-      - ground up to create a salve which has some healing properties
-    - Red Mushrooms:
-      effects: paralyzed
-    - Green Mushrooms:
-
-
-  - Candy:
-    - Jelly Freakin:
-    - Confusing Taffy:
-      - duration: 24 hours
-      - effects:
-        - Strength: +1
-
-    - Odd Cocoa Drop:
-      - duration: 24 hours
-      - effects:
-        - jump: 15 feet
-
-    - Extroadinary Mint:
-      - duration: 24 hours
-      - effects:
-        - "Fresh Breath"
-        - Wisdom Modifier: - 1
-        - Charisma Modifier: + 1
-
-  - Potions:
-    - Potions of Greater Healing: Heals for 4d4
-    - Potion of Hiding From Beats: Hides you from beasts for 10 minute
+  - Cool Purple Drink:
+    Description:
+      When two people share this drink their essences are mixed and for a period
+      of time, they are both beings at the same time
