@@ -28,7 +28,7 @@ Comestibles:
       - effects:
         - Strength: +1
 
-    - Odd Cocoa Drop:
+    - Odd Cocoa Drop: 6
       - duration: 24 hours
       - effects:
         - jump: 15 feet

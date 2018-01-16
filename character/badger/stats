@@ -15,15 +15,15 @@ INSIPRATION PPOINTS: 1
 ------------
 
 Current Status:
-  Hit Points: 32/39 (-6)
-  Death Saves Passed: 0/3
+  Hit Points: 0/39 (0)
+  Death Saves Passed: 2/3
   Death Saves Failed: 0/3
   Effects:
 ------------
 
 Party Health:
   Gloria:
-    status: Dead ?/? (0)
+    status: Dead 0/? (0)
     death saves failed: 0
     death saves passed: 0
   Travok:
@@ -38,6 +38,10 @@ Party Health:
     status: Healthy ?/? (-9)
     death saves failed: 0
     death saves passed: 0
+  Badger:
+    status: Healthy 0/39 (0)
+    death saves failed: 0
+    death saves passed: 2
 
 ------------
 
