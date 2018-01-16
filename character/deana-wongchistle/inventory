@@ -1,0 +1,58 @@
+-----------
+ ██▓ ███▄    █ ██▒   █▓▓█████  ███▄    █ ▄▄▄█████▓ ▒█████   ██▀███ ▓██   ██▓
+▓██▒ ██ ▀█   █▓██░   █▒▓█   ▀  ██ ▀█   █ ▓  ██▒ ▓▒▒██▒  ██▒▓██ ▒ ██▒▒██  ██▒
+▒██▒▓██  ▀█ ██▒▓██  █▒░▒███   ▓██  ▀█ ██▒▒ ▓██░ ▒░▒██░  ██▒▓██ ░▄█ ▒ ▒██ ██░
+░██░▓██▒  ▐▌██▒ ▒██ █░░▒▓█  ▄ ▓██▒  ▐▌██▒░ ▓██▓ ░ ▒██   ██░▒██▀▀█▄   ░ ▐██▓░
+░██░▒██░   ▓██░  ▒▀█░  ░▒████▒▒██░   ▓██░  ▒██▒ ░ ░ ████▓▒░░██▓ ▒██▒ ░ ██▒▓░
+░▓  ░ ▒░   ▒ ▒   ░ ▐░  ░░ ▒░ ░░ ▒░   ▒ ▒   ▒ ░░   ░ ▒░▒░▒░ ░ ▒▓ ░▒▓░  ██▒▒▒
+ ▒ ░░ ░░   ░ ▒░  ░ ░░   ░ ░  ░░ ░░   ░ ▒░    ░      ░ ▒ ▒░   ░▒ ░ ▒░▓██ ░▒░
+ ▒ ░   ░   ░ ░     ░░     ░      ░   ░ ░   ░      ░ ░ ░ ▒    ░░   ░ ▒ ▒ ░░
+ ░           ░      ░     ░  ░         ░              ░ ░     ░     ░ ░
+                   ░                                                ░ ░
+-----------
+Inventory:
+
+  - General:
+    Gold: 15
+    Pouch:	1
+    Waterskin:	1
+    Bedroll:	1
+    Incense:	5
+    Rations: (1 day)	10
+    Rope: hempen	1
+    Vestements:	1
+    Tinderbox:	1
+    Mess kit:	1
+    Backpack: 1
+    Torch:	10
+    Ruby Arcane Focus: 1
+    Bolts: 20
+    Forgery Kit: 1
+    Disguise Kit: 1
+
+  - ARMOUR:
+    EQUIPED: None
+    armour_list: None
+
+  - WEAPONS:
+    EQUIPED: dagger
+    weapon_list:
+    - dagger:
+      melee:
+        Range: 20/60 ft
+        hit_modifier: +4
+        base_damage: 1d4
+        damage_type: piercing
+        damage_modifer: +2
+        Finesse: yes
+
+    - light crossbow:
+      ranged:
+        Range: 80/320 ft.
+        Finesse: no
+        Two-handed: yes
+        reach: ?
+        hit_modifier: +4
+        base_damage: 1d4
+        damage_type: piercing
+        damage_modifer: +2
