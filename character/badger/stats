@@ -15,27 +15,37 @@ INSIPRATION PPOINTS: 1
 ------------
 
 Current Status:
-  Hit Points: 13/36 (-23)
-  Death Saves Passed: 0/3
+  Hit Points: 0/39 (0)
+  Death Saves Passed: 2/3
   Death Saves Failed: 0/3
   Effects:
 ------------
 
 Party Health:
-  Gloria: Critical 17/? (0)
+  Gloria:
+    status: Dead 0/? (0)
     death saves failed: 0
     death saves passed: 0
-  Travok: Wounded 26/? (-10)
-  Dogo: Critical 24/60 (-7)
-  Lucious: Dead 0/40 (-30)
+  Travok:
+    status: Damaged ?/? (-23)
     death saves failed: 0
     death saves passed: 0
-  Blizzard: Damaged 34/? (-9)
-  Spruce: Healthy ?/? (?)
+  Dogo:
+    status: Damaged ?/? (-15)
+    death saves failed: 0
+    death saves passed: 0
+  Lucious:
+    status: Healthy ?/? (-9)
+    death saves failed: 0
+    death saves passed: 0
+  Badger:
+    status: Healthy 0/39 (0)
+    death saves failed: 0
+    death saves passed: 2
 
 ------------
 
-Level: 6
+Level: 7
 
 Strength: 15 (+ 2)
 Dexterity: 11 (+ 0)
@@ -78,6 +88,7 @@ Level 3: 16
 Level 4: 21
 Level 5: 29
 Level 6: 36
+Level 7: 39
 
 Darkvision: 60
 

@@ -10,10 +10,10 @@
  ░           ░      ░     ░  ░         ░              ░ ░     ░     ░ ░
                    ░                                                ░ ░
 -----------
+
 Inventory:
   - GOLD:
-    - 5185
-      - can buy 17 revives
+    Quantity: 3435
 
   - ARMOUR:
     EQUIPED: Platemail
@@ -36,7 +36,7 @@ Inventory:
     - Greatclub (1d8 + 4 bludgeoning)
     - Throwing Daggers
     - Holy Water
-      Quantity: 0 (7 pending)
+      Quantity: 7 (2 pending)
       Notes:
         - improvised weapon
         - only effecrs fiend or undead
@@ -73,11 +73,11 @@ Inventory:
         Red Mushrooms: 3
         Green Mushrooms: 3
         Jelly Freakin: 10
-        Odd Coco Drops: 9
+        Odd Coco Drops: 0
         Extroadinary Mint: 9
     - POTIONS:
       Potion of Greater Healing:
-        qantity: 2
+        qantity: 12
         effects:
           heal: 4d4
       Potion of Hiding From Beasts:
@@ -85,6 +85,12 @@ Inventory:
         effect:
           hide_from: beasts
     - MISC:
+      Rope:
+        Quantity: 1
+        Length: 60 feet
+      Immovable rod:
+        Qantity: 1
+      Monestone Chess Piece: carved in the shape of a vampire
       Sage Beard Leaves:
         Looks like an old mans Beard
         ground up to create a salve which has some healing properties

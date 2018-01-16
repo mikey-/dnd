@@ -22,14 +22,16 @@ Race Cantrips: 1
 Total Level 1 Spell Slots: 4
 Total Level 2 Spell Slots: 3
 Total Level 3 Spell Slots: 3
+Total Level 4 Spell Slots: 1
 
-Used Level 1 Spell Slots: 1
+Used Level 1 Spell Slots: 0
 Used Level 2 Spell Slots: 1
-Used Level 3 Spell Slots: 1
+Used Level 3 Spell Slots: 2
+Used Level 4 Spell Slots: 1
 
 ---------------------------------
 
-Known Spells: 9 Cleric Level + wisdom modifier (6 + 3)
+Known Spells: 10 Cleric Level + wisdom modifier (7 + 3)
 
 Known Cantrips:
   - Druid:
@@ -42,24 +44,47 @@ Known Cantrips:
   - Other:
     - Control Flame
 
-Known Spells:
-  - Speak With Animals
-  - Healing Word
-  - Cure Wounds
-  - Detect Evil and Good
-  - Enhance Ability
-  - Rope Trick
-  - Prayer of Healing
-  - Lesser Restoration
-  - Revivify
-  - Domain Spells:
-    - Animal Friendship
-    - Barkskin
-    - Spike Growth
-    - Plant Growth
-    - Wind Wall
+#Prepared Cleric Spells:
+#  - Healing Word
+#  - Cure Wounds
+#  - Detect Evil and Good
+#  - Enhance Ability
+#  - Prayer of Healing
+#  - Lesser Restoration
+#  - Revivify
+#  -
+#  -
+#  -
 
-  - Next level (Blink? Sending? Hold person, tongues)
+Prepared Cleric Spells:
+  Total Time to Prepare: 16
+  - Inflict Wounds
+  - Cure Wounds
+  - Prayer of Healing
+  - Zone of Truth
+  - Lesser Restoration
+  - Hold Person
+  - Revivify
+  - Spirit Guardians
+  - Water Walk
+  - Banishment
+
+Cleric Domain Spells:
+  - Animal Friendship
+  - Speak With Animals
+  - Barkskin
+  - Spike Growth
+  - Plant Growth
+  - Wind Wall
+  - Dominate beast
+  - Grasping vine
+
+Learned Spells:
+  - Rope Trick
+  - Silence
+  - Enthrall
+  - Dispell magic
+
 ---------------------------------
 Ritual Casting:
 You can cast a cleric spell as a ritual if that spell has the ritual tag and you have the spell prepared.
@@ -190,6 +215,17 @@ Cantrips:
         If a creature discerns the illusion for what it is, the illusion becomes faint to the creature.
 
 Spells:
+  - Inflict Wounds:
+    Level: 1st-level necromancy
+    Casting Time: 1 action
+    Range: Touch
+    Components: V, S
+    Duration: Instantaneous
+    Description:
+      Make a melee spell attack against a creature you can reach. On a hit, the target takes 3d10 necrotic damage.
+    At Higher Levels:
+      When you cast this spell using a spell slot of 2nd level or higher, the damage increases by
+      1d10 for each slot level above 1st.
   - Animal Friendship:
     Level: 1st-level
     Type: Enchantment
@@ -375,6 +411,56 @@ Spells:
       those inside can see out of it as if through a 3-foot-by-5-foot window centered on the rope.
       Anything inside the extradimensional space drops out when the spell ends.
 
+  - Enthrall:
+    Level: 2nd-level
+    Type: Enchantment
+    Casting Time: 1 action
+    Range: 60 feet
+    Components: V, S
+    Duration: 1 minute
+    Description:
+      You weave a distracting string of words, causing creatures of your choice
+      that you can see within range and that can hear you to make a Wisdom
+      saving throw. Any creature that can’t be charmed succeeds on this saving
+      throw automatically, and if you or your companions are fighting a
+      creature, it has advantage on the save. On a failed save, the target has
+      disadvantage on Wisdom (Perception) checks made to perceive any creature
+      other than you until the spell ends or until the target can no longer
+      hear you. The spell ends if you are incapacitated or can no longer speak.
+
+  - Silence:
+    Level: 2nd-level
+    Type: illusion (ritual)
+    Casting Time: 1 action
+    Range: 120 feet
+    Components: V, S
+    Duration: Concentration, up to 10 minutes
+    Description:
+      For the duration, no sound can be created within or pass through a
+      20-foot-radius sphere centered on a point you choose within range.
+      Any creature or object entirely inside the sphere is immune to thunder
+      damage, and creatures are deafened while entirely inside it.
+      Casting a spell that includes a verbal component is impossible there
+
+  - Zone of Truth:
+    Level: 2nd-level
+    Type: enchantment
+    Casting Time: 1 action
+    Range: 60 feet
+    Components: V, S
+    Duration: 10 minutes
+    Description:
+      You create a magical zone that guards against deception in a
+      15-foot-radius sphere centered on a point o f your choice within range.
+      Until the spell ends, a creature that enters the spell’s area for the
+      first time on a turn or starts its turn there must make a Charisma
+      saving throw. On a failed save, a creature can’t speak a deliberate lie
+      while in the radius. You know whether each creature succeeds or fails on
+      its saving throw. An affected creature is aware of the spell and can thus
+      avoid answering questions to which it would normally respond with a lie.
+      Such a creature can be evasive in its answers as long as it remains
+      within the boundaries of the truth.
+
   - Plant Growth:
     Type: 3rd-level
     Level: transmutation
@@ -393,6 +479,23 @@ Spells:
         You enrich the land.
         All plants in a half-mile radius centered on a point within range become enriched for 1 year.
         The plants yield twice the normal amount of food when harvested.
+
+  - Hold Person:
+    Level: 2nd-level
+    Type: enchantment
+    Casting Time: 1 action
+    Range: 60 feet
+    Components: V, S, M (a small, straight piece of iron)
+    Duration: Concentration, up to 1 minute
+    Description:
+      Choose a humanoid that you can see within range. The target must succeed
+      on a Wisdom saving throw or be paralyzed for the duration. At the end of
+      each of its turns, the target can make another Wisdom saving throw. On a
+      success, the spell ends on the target.
+    At Higher Levels:
+      When you cast this spell using a spell slot of 3rd level or higher, you
+      can target one additional humanoid for each slot level above 2nd.
+      The humanoids must be within 30 feet of each other when you target them.
 
   - Wind Wall:
     level: 3rd-level
@@ -451,3 +554,106 @@ Spells:
             Successful Save: The creature takes half as much damage.
     At Higher Levels:
       When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d8 for each slot level above 3rd.
+
+  - Dispel Magic:
+    Level: 3rd-level
+    Type: abjuration
+    Casting Time: 1 action
+    Range: 120 feet Components: V, S
+    Duration: Instantaneous
+    Description:
+      Choose one creature, object, or magical effect within range.
+      Any spell of 3rd level or lower on the target ends. For each spell of
+      4th level or higher on the target, make an ability check using your
+      spellcasting ability. The DC equals 10 + the spell’s level.
+      On a successful check, the spell ends.
+    At Higher Levels:
+      When you cast this spell using a spell slot of 4th level or higher,
+      you automatically end the effects of a spell on the target if the spell’s
+      level is equal to or less than the level of the spell slot you used
+  - Water Walk:
+    Level: 3rd-level
+    Type: transmutation (ritual)
+    Casting Time: 1 action
+    Range: 30 feet
+    Components: V, S, M (a piece of cork)
+    Duration: 1 hour
+    Description:
+      This spell grants the ability to move across any liquid surface—such as
+      water, acid, mud, snow, quicksand, or lava—as if it were harmless solid
+      ground (creatures crossing molten lava can still take damage from the
+      heat). Up to ten willing creatures you can see within range gain this
+      ability for the duration. If you target a creature submerged in a liquid,
+      the spell carries the target to the surface of the liquid at a rate of 60
+      feet per round.
+  - Dominate Beast:
+    Level: 4th-level
+    Type: Enchantment
+    Casting Time: 1 action
+    Range: 60 feet
+    Components: V, S
+    Duration: Concentration, up to 1 minute
+    Description:
+      You attempt to beguile a beast that you can see within range.
+      It must succeed on a Wisdom saving throw or be charm ed by you for the
+      duration. If you or creatures that are friendly to you are fighting it,
+      it has advantage on the saving throw. While the beast is charmed, you
+      have a telepathic link with it as long as the two of you are on the same
+      plane of existence. You can use this telepathic link to issue commands
+      to the creature while you are conscious (no action required), which it
+      does its best to obey. You can specify a simple and general course of
+      action, such as “Attack that creature,” “Run over there,” or “Fetch that
+      object.” If the creature completes the order and doesn’t receive further
+      direction from you, it defends and preserves itself to the best of its
+      ability.
+      You can use your action to take total and precise control of the target.
+      Until the end of your next turn, the creature takes only the actions you
+      choose, and doesn’t do anything that you don’t allow it to do. During
+      this time, you can also cause the creature to use a reaction, but this
+      requires you to use your own reaction as well. Each time the target takes
+      damage, it makes a new W isdom saving throw against the spell. If the
+      saving throw succeeds, the spell ends.
+    At Higher Levels:
+      5th-level: the duration is concentration, up to 10 minutes.
+      6th-level: spell slot, the duration is concentration, up to 1 hour.
+      7th-level or higher: the duration is concentration, up to 8 hours.
+
+  - Banishment:
+    Level: 4th-level
+    Type: abjuration
+    Casting Time: 1 action
+    Range: 60 feet
+    Components: V, S, M (an item distasteful to the target)
+    Duration: Concentration, up to 1 minute
+    Description:
+      You attempt to send one creature that you can see within range to another
+      plane of existence. The target must succeed on a Charisma saving throw or
+      be banished. If the target is native to the plane of existence you’re on,
+      you banish the target to a harmless demiplane. While there, the target is
+      incapacitated. The target remains there until the spell ends, at which
+      point the target reappears in the space it left or in the nearest
+      unoccupied space if that space is occupied. If the target is native to a
+      different plane of existence than the one you’re on, the target is
+      banished with a faint popping noise, returning to its home plane. If the
+      spell ends before 1 minute has passed, the target reappears in the space
+      it left or in the nearest unoccupied space if that space is occupied.
+      Otherwise, the target doesn't return.
+    At Higher Levels:
+      When you cast this spell using a spell slot of 5th level or higher, you
+      can target one additional creature for each slot level above 4th.
+
+  - Grasping Vine:
+    Level: 4th-level
+    Type: Conjuration
+    Casting Time: 1 bonus action
+    Range: 30 feet
+    Components: V, S
+    Duration: Concentration, up to 1 minute
+    Description:
+      You conjure a vine that sprouts from the ground in an unoccupied space
+      of your choice that you can see within range. When you cast this spell,
+      you can direct the vine to lash out at a creature within 30 feet of it
+      that you can see. That creature must succeed on a Dexterity saving throw
+      or be pulled 20 feet directly toward the vine.
+      Until the spell ends, you can direct the vine to lash out at the same
+      creature or another one as a bonus action on each of your turns.
