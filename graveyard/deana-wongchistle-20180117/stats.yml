@@ -14,7 +14,7 @@ General:
   Level: 1
   Proficiency bonus: +2
   Ability Scores:
-    Strength: 8 (- 1)
+    Strength: 5 (- 3)
     Dexterity: 14 (+ 2)
     Constitution: 14 (+ 2)
     Intelligence: 12 (+ 1)
@@ -35,11 +35,12 @@ Physical Traits:
   Hight: 4' 5"
 
 Health:
-  Hit Points: 8/8 ()
+  Hit Points: 0/8 ()
   Hit Point History:
-    Death Saves Passed: 0/3
-    Death Saves Failed: 0/3
+    Death Saves Passed: 2/3
+    Death Saves Failed: 3/3
   Effects:
+    -3 Strength
 
 Misc:
   Passive Wisdom (Perception): 9
@@ -78,7 +79,7 @@ Skills:
   Acrobatics: +2
   Animal Handling: -1
   Arcana: +1
-  Althetics: -1
+  Althetics: -3
   Deception*: +5
   History*: +3
   Insight: -1
