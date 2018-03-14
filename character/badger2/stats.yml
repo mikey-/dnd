@@ -1,0 +1,111 @@
+------------
+  ██████ ▄▄▄█████▓ ▄▄▄     ▄▄▄█████▓  ██████
+▒██    ▒ ▓  ██▒ ▓▒▒████▄   ▓  ██▒ ▓▒▒██    ▒
+░ ▓██▄   ▒ ▓██░ ▒░▒██  ▀█▄ ▒ ▓██░ ▒░░ ▓██▄
+  ▒   ██▒░ ▓██▓ ░ ░██▄▄▄▄██░ ▓██▓ ░   ▒   ██▒
+▒██████▒▒  ▒██▒ ░  ▓█   ▓██▒ ▒██▒ ░ ▒██████▒▒
+▒ ▒▓▒ ▒ ░  ▒ ░░    ▒▒   ▓▒█░ ▒ ░░   ▒ ▒▓▒ ▒ ░
+░ ░▒  ░ ░    ░      ▒   ▒▒ ░   ░    ░ ░▒  ░ ░
+░  ░  ░    ░        ░   ▒    ░      ░  ░  ░
+      ░                 ░  ░              ░
+------------
+
+INSIPRATION PPOINTS: 0
+
+------------
+
+Current Status:
+  Hit Points: 10/10 (0)
+  Death Saves Passed: 0/3
+  Death Saves Failed: 0/3
+  Effects:
+------------
+
+Party Health:
+  Badger:
+    status: Healthy 0/10 (0)
+    death saves failed: 0
+    death saves passed: 0
+
+------------
+
+Level: 1
+
+Strength: 13 (+ 1)
+Dexterity: 13 (+ 1)
+Constitution: 15 (+ 2)
+Intelligence: 11 (+ 0)
+Wisdom: 15 (+ 2)
+Charisma: 8 (- 1)
+
+Passive Wisdom (Perception): 12
+
+Armour Class: 16
+Initiative: 1
+Speed: 25
+Max Hit Points: 10
+Proficiency bonus: +2
+
+Spellcasting Ability: Wisdom
+Spell Attack Bonus: +4 (proficiency bonus + Spellcasting Ability modifier)
+Spell Save DC: 12 (8 + proficiency bonus + Spellcasting Ability modifier)
+
+Attacking:
+ - Attack Bonus: +2 (Proficiency Bonus + Ability (Strength) Bonus)
+   - add your attack bonus to 'to hit' rolls
+   - Changes to +4 after casting T druid cantrip
+
+Languages: Gnomish, Common, Elvish, Goblin
+
+Proficiencies:
+ - Weapon: Simple
+ - Armor: Light, Medium, Heavy, shields
+ - Tools: None
+ - Saving Throws: Wisdom, Charisma
+ - Skills: Animal Handling, History, Insight, Nature, Religion
+
+Hit Dice: 2d8
+
+Hit Point History:
+Level 1: 10
+
+Darkvision: 60
+
+Speak with SmallBeasts:
+  Through sounds and gestures, you can communicate simple ideas with Small
+  or smaller beasts.
+
+Forest gnomes love animals and often keep:
+     - squirrels
+     - badgers
+     - rabbits
+     - moles
+     - woodpeckers
+
+Saving Throws:
+  Strength: 1
+  Dexterity: 1
+  Constitution: 2
+  Intelligence: 0
+  Wisdom: 4
+  Charisma: 1
+
+Skills:
+  Acrobatics: 1
+  Animal Handling: 2
+  Arcana: 0
+  Althetics: 1
+  Deception: -1
+  History: 2*
+  Insight: 4*
+  Intimidation: -1
+  Investigation: 0
+  Medicine: 4*
+  Narture: 0
+  Perception: 2
+  Performance: -1
+  Persuasion: -1
+  Religion: 2*
+  Sleight of Hand: 1
+  Stealth: 1
+  Survival: 2

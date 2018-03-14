@@ -1,0 +1,56 @@
+-----------
+ ██▓ ███▄    █ ██▒   █▓▓█████  ███▄    █ ▄▄▄█████▓ ▒█████   ██▀███ ▓██   ██▓
+▓██▒ ██ ▀█   █▓██░   █▒▓█   ▀  ██ ▀█   █ ▓  ██▒ ▓▒▒██▒  ██▒▓██ ▒ ██▒▒██  ██▒
+▒██▒▓██  ▀█ ██▒▓██  █▒░▒███   ▓██  ▀█ ██▒▒ ▓██░ ▒░▒██░  ██▒▓██ ░▄█ ▒ ▒██ ██░
+░██░▓██▒  ▐▌██▒ ▒██ █░░▒▓█  ▄ ▓██▒  ▐▌██▒░ ▓██▓ ░ ▒██   ██░▒██▀▀█▄   ░ ▐██▓░
+░██░▒██░   ▓██░  ▒▀█░  ░▒████▒▒██░   ▓██░  ▒██▒ ░ ░ ████▓▒░░██▓ ▒██▒ ░ ██▒▓░
+░▓  ░ ▒░   ▒ ▒   ░ ▐░  ░░ ▒░ ░░ ▒░   ▒ ▒   ▒ ░░   ░ ▒░▒░▒░ ░ ▒▓ ░▒▓░  ██▒▒▒
+ ▒ ░░ ░░   ░ ▒░  ░ ░░   ░ ░  ░░ ░░   ░ ▒░    ░      ░ ▒ ▒░   ░▒ ░ ▒░▓██ ░▒░
+ ▒ ░   ░   ░ ░     ░░     ░      ░   ░ ░   ░      ░ ░ ░ ▒    ░░   ░ ▒ ▒ ░░
+ ░           ░      ░     ░  ░         ░              ░ ░     ░     ░ ░
+                   ░                                                ░ ░
+-----------
+Inventory:
+
+  - General:
+    Backpack: 1
+    Waterskin: 1
+    Gold: 10
+    Pouch:	1
+    Cencer:	1
+    Incense:	2
+    Rations: (1 day)	10
+    Rope: hempen	1
+    Vestements:	1
+    Tinderbox:	1
+    Component Pouch: 1
+    Holy Symbol:
+      Type: Musical Instrument
+      Description: Pan Pipes
+
+
+  - ARMOUR:
+    EQUIPED: plate
+    armour_list:
+      - Chain Mail:
+        - type: heavy
+        - baseAC: 16
+        - max_dex_ac_bonus: 0
+        - min_strength: 13
+        - weight: 55
+        - stealth_disadvantage: yes
+
+  - WEAPONS:
+    EQUIPED: greatclub
+    weapon_list:
+    - greatclub:
+      melee:
+        Range: 20/60 ft
+        hit_modifier: +3
+        base_damage: 1d8
+        damage_type: Bludgeoning
+        damage_modifer: +2
+        Finesse: no
+        Two-handed: yes
+        Versatile: no
+        Type: simple
