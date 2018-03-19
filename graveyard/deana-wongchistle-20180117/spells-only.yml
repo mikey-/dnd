@@ -20,9 +20,6 @@ Learned Cantrips: 1
 Race Cantrips: 1
 
 Total Level 1 Spell Slots: 2
-Total Level 2 Spell Slots: 3
-Total Level 3 Spell Slots: 3
-Total Level 4 Spell Slots: 1
 
 Used Level 1 Spell Slots: 0
 Used Level 2 Spell Slots: 1
@@ -117,7 +114,7 @@ Cantrips:
       Range: Touch
       Components: V,S,M (mistletoe, a shamrock leaf, and a club orquarterstaff)
       Duration: 1 minute
-      The wood of a club or quarterstaffyou are holding is imbued with nature’s
+      The wood of a club or quarterstaff you are holding is imbued with nature’s
       power. For the duration, you can use your spellcasting ability instead of
       Strength for the attack and damage rolls of melee attacks using that
       weapon, and the weapon's damage die becomes a d8. The weapon also becomes

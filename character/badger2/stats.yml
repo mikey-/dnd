@@ -15,7 +15,7 @@ INSIPRATION PPOINTS: 0
 ------------
 
 Current Status:
-  Hit Points: 10/10 (0)
+  Hit Points: 4/10 (-6)
   Death Saves Passed: 0/3
   Death Saves Failed: 0/3
   Effects:
@@ -23,10 +23,29 @@ Current Status:
 
 Party Health:
   Badger:
-    status: Healthy 0/10 (0)
+    status: Wounded 4/10 (0)
     death saves failed: 0
     death saves passed: 0
 
+  Shnorp:
+    status: Wounded 2/10 (-6)
+    death saves failed: 0
+    death saves passed: 0
+
+  Hanzo:
+    status: Healthy 12/12 (0)
+    death saves failed: 0
+    death saves passed: 0
+
+  Fridge:
+    status: Damaged 8/14 (0)
+    death saves failed: 0
+    death saves passed: 0
+
+  Cadence:
+    status: Healthy 8/8 (0)
+    death saves failed: 0
+    death saves passed: 0
 ------------
 
 Level: 1
@@ -51,7 +70,7 @@ Spell Attack Bonus: +4 (proficiency bonus + Spellcasting Ability modifier)
 Spell Save DC: 12 (8 + proficiency bonus + Spellcasting Ability modifier)
 
 Attacking:
- - Attack Bonus: +2 (Proficiency Bonus + Ability (Strength) Bonus)
+ - Attack Bonus: +3 (Proficiency Bonus + Ability (Strength) Bonus)
    - add your attack bonus to 'to hit' rolls
    - Changes to +4 after casting T druid cantrip
 
@@ -64,7 +83,7 @@ Proficiencies:
  - Saving Throws: Wisdom, Charisma
  - Skills: Animal Handling, History, Insight, Nature, Religion
 
-Hit Dice: 2d8
+Hit Dice: 1d8
 
 Hit Point History:
 Level 1: 10
@@ -92,7 +111,7 @@ Saving Throws:
 
 Skills:
   Acrobatics: 1
-  Animal Handling: 2
+  Animal Handling: 2*
   Arcana: 0
   Althetics: 1
   Deception: -1

@@ -10,10 +10,3 @@
 ░ ░          ░ ░      ░ ░      ░  ░      ░             ░    ░                    ░  ░░ ░                     ░
 ░                                      ░                  ░                          ░
 ---------
-Rolling to hit
-  - roll for ac
-  - roll for damage
-
-Instant death
-  When damage reduces you to 0 hit points and there is damage remaining,
-  you die if the remaining damage equals or exceeds your hit point maximum.
