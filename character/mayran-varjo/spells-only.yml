@@ -10,17 +10,21 @@
       ░              ░  ░    ░  ░    ░  ░      ░
 -------
 
-Cleric Cantrips: 3
+Cleric Cantrips: 4
 Necromancy Cantrips: 1
 Learned Cantrips: 0
 
-Total Level 1 Spell Slots: 2
+Total Level 1 Spell Slots: 4
+Total Level 2 Spell Slots: 3
+Total Level 3 Spell Slots: 2
 
 Used Level 1 Spell Slots: 0
+Used Level 2 Spell Slots: 0
+Used Level 3 Spell Slots: 0
 
 ---------------------------------
 
-Known Spells: 4 (Cleric Level + wisdom modifier)
+Known Spells: 8 (Cleric Level + wisdom modifier)
 
 Known Cantrips:
   - Necromancy:
@@ -29,17 +33,26 @@ Known Cantrips:
     - Spare the Dying
     - Mending
     - Guidance
+    - Thaumaturgy
 
 Prepared Cleric Spells:
-  Total Time to Prepare: 3
+  Total Time to Prepare: 13
   - Inflict Wounds
   - Shield of Faith
   - Cure Wounds
   - Command
+  - Silence
+  - Speak with Dead
+  - Fiegn Death
+  - Spirit Guardians
 
 Cleric Domain Spells:
   - False Life
   - Ray of Sicknes
+  - Blindness/Deafness
+  - Ray of Enfeeblement
+  - Animate Dead
+  - Vampiric Touch
 
 ---------------------------------
 Ritual Casting:
@@ -51,7 +64,6 @@ You can use a holy symbol (found in chapter 5) as a spellcasting focus for your
 cleric spells.
 
 Cantrips:
-
   - Necromancy Cantrips:
     - Chill Touch:
       Type: Necromancy cantrip
@@ -61,13 +73,12 @@ Cantrips:
       Duration: 1 round
       Description: You create a ghostly, skeletal hand in the space of a
       creature within range. Make a ranged spell attack against the creature to
-      assail it with the chill of the grave. On a hit, the target takes 1d8
+      assail it with the chill of the grave. On a hit, the target takes 2d8
       necrotic damage, and it can’t regain hit points until the start of your
       next turn. Until then, the hand clings to the target.
       If you hit an undead target, it also has disadvantage on attack rolls
       against you until the end of your next turn.
       At Higher Levels:
-        - 5th Level: 2d8
         - 11th Level: 3d8
         - 17th Level: 4d8
 
@@ -80,8 +91,9 @@ Cantrips:
       Duration: Concentration, up to 1 minute
       Description:
         You touch one willing creature.
-        Once before the spell ends, the target can roll a d4 and add the number rolled to one ability check of its choice.
-        It can roll the die before or after making the ability check. The spell then ends.
+        Once before the spell ends, the target can roll a d4 and add the number
+        rolled to one ability check of its choice. It can roll the die before or
+        after making the ability check. The spell then ends.
 
     - Mending:
       Type: Transmutation cantrip
@@ -90,9 +102,12 @@ Cantrips:
       Components: V, S, M (two lodestones)
       Duration: Instantaneous
       Description:
-        This spell repairs a single break or tear in an object you touch, such as a broken chain link, two halves of a broken key, a torn cloak, or a leaking wineskin.
-        As long as the break or tear is no larger than 1 foot in any dimension, you mend it. leaving no trace of the former damage.
-        This spell can physically repair a magic item or construct, but the spell can’t restore magic to such an object.
+        This spell repairs a single break or tear in an object you touch, such
+        as a broken chain link, two halves of a broken key, a torn cloak, or a
+        leaking wineskin. As long as the break or tear is no larger than 1 foot
+        in any dimension, you mend it. leaving no trace of the former damage.
+        This spell can physically repair a magic item or construct, but the
+        spell can’t restore magic to such an object.
 
     - Spare the Dying:
       Casting Time: 1 minute
@@ -112,9 +127,32 @@ Cantrips:
       Duration: Instantaneous
       Description:
         Flame-like radiance descends on a creature that you can see within range.
-        The target must succeed on a Dexterity saving throw or take 2d8 radiant damage.
-        The target gains no benefit from cover for this saving throw.
-        The spell’s damage increases by 1d8 when you reach 11th level (3d8), and 17th level (4d8).
+        The target must succeed on a Dexterity saving throw or take 2d8 radiant
+        damage. The target gains no benefit from cover for this saving throw.
+      At Higher Levels:
+        11th level: 3d8
+        17th level: 4d8
+
+    - Thaumaturgy:
+      Level: Cantrip
+      Type: Transmutation
+      Casting Time: 1 action
+      Range: 30 feet
+      Components: V
+      Duration: Up to 1 minute
+      Description:
+        You manifest a minor wonder, a sign of supernatural power, within range.
+        You create one of the following magical effects within range:
+          - Your voice booms up to three times as loud as normal
+          - You cause flames to flicker, brighten, dim, or change color
+          - You cause harmless tremors in the ground
+          - You create an instantaneous sound that originates from a point of
+          your choice within range, such as a rumble of thunder.
+          - You instantaneously cause an unlocked door or window to fly open or
+          slam shut.
+          - You alter the appearance of your eyes.
+      Multiple Casts: you can have up to three of its 1-minute effects active at
+      a time, and you can dismiss such an effect as an action.
 
 Spells:
   - Inflict Wounds:
@@ -125,10 +163,10 @@ Spells:
     Components: V, S
     Duration: Instantaneous
     Description:
-      Make a melee spell attack against a creature you can reach. On a hit, the target takes 3d10 necrotic damage.
+      Make a melee spell attack against a creature you can reach. On a hit, the
+      target takes 3d10 necrotic damage.
     At Higher Levels:
-      When you cast this spell using a spell slot of 2nd level or higher, the damage increases by
-      1d10 for each slot level above 1st.
+      2nd level or higher +1d10 for each slot level above 1st.
 
   - Shield of Faith:
     Level: 1
@@ -137,8 +175,9 @@ Spells:
     Range: 60 feet
     Components: V, S, M(a small parchment with a bit of holy text written on it)
     Duration: Concentration, up to 10 minutes
-    Descroption: A shimmering field appears and surrounds a creature of your
-    choice within range, granting it a +2 bonus to AC for the duration
+    Descroption:
+      A shimmering field appears and surrounds a creature of your
+      choice within range, granting it a +2 bonus to AC for the duration
 
   - Command:
     Level: 1
@@ -147,18 +186,20 @@ Spells:
     Range: 60 feet
     Components: V
     Duration: 1 round
-    Description: You speak a one-word command to a creature you can see within
-    range. The target must succeed on a Wisdom saving throw or follow the
-    command on its next turn. The spell has no effect if the target is undead,
-    if it doesn’t understand your language, or if your command is directly
-    harmful to it.
-    Some typical commands and their effects follow. You might issue a command
-    other than one described here. If you do so, the DM determines how the
-    target behaves. If the target can’t follow your command, the spell ends.
+    Description:
+      You speak a one-word command to a creature you can see within
+      range. The target must succeed on a Wisdom saving throw or follow the
+      command on its next turn. The spell has no effect if the target is undead,
+      if it doesn’t understand your language, or if your command is directly
+      harmful to it.
+      Some typical commands and their effects follow. You might issue a command
+      other than one described here. If you do so, the DM determines how the
+      target behaves. If the target can’t follow your command, the spell ends.
       - Approach: The target moves toward you by the shortest and most direct
       route, ending its turn if it moves within 5 feet of you.
       - Drop: The target drops whatever it is holding and then ends its turn.
-      Flee. The target spends its turn moving away from you by the fastest available means.
+      Flee. The target spends its turn moving away from you by the fastest
+      available means.
       - Grovel: The target falls prone and then ends its turn.
       - Halt: The target doesn’t move and takes no actions. A flying creature
       stays aloft, provided that it is able to do so. If it must move to stay
@@ -178,4 +219,179 @@ Spells:
       heal 1d8 + your spell casting ability modifier (+3).
       This spell has no effect on undead or constructs.
     At Higher Levels:
-      2nd level or higher, +1d8 for each slot level above 1st.
+      2nd level or higher: +1d8 for each slot level above 1st.
+
+  - Ray of Sickness:
+    Level: 1
+    Type: Necromancy
+    Casting Time: 1 action
+    Range: 60 feet
+    Components: V, S
+    Duration: Instantaneous
+    Description:
+      A ray of sickening greenish energy lashes out toward a creature within
+      range. Make a ranged spell attack against the target. On a hit, the target
+      takes 2d8 poison damage and must make a Constitution saving throw. On a
+      failed save, it is also poisoned until the end of your next turn.
+    AtHigherLevels:
+      2nd level or higher: +1d8 for each slot level above 1st.
+
+  - Blindness/Deafness:
+  Level: 2
+  Type: Necromancy
+  Casting Time: 1 action
+  Range: 30 feet
+  Components: V
+  Duration: 1 minute
+  Description:
+    You can blind or deafen a foe. Choose one creature that you can see within
+    range to make a Constitution saving throw. If it fails, the target is either
+    blinded or deafened (your choice) for the duration. At the end of each of
+    its turns, the target can make a Constitution saving throw. On a success,
+    the spell ends.
+  AtHigherLevels:
+    3rd level or higher: target 1 additional creature for each level above 2nd.
+
+  - Ray of Enfeeblement:
+    Level: 2
+    Type: Necromancy
+    Casting Time: 1 action
+    Range: 60 feet
+    Components: V, S
+    Duration: Concentration, up to 1 minute
+    Description:
+      A black beam of enervating energy springs from your finger
+      toward a creature within range. Make a ranged spell attack against the
+      target. On a hit, the target deals only half damage with weapon attacks
+      that use Strength until the spell ends. At the end of each of the target’s
+      turns, it can make a Constitution saving throw against the spell. On a
+      success, the spell ends.
+
+  - Hold Person:
+    Level: 2
+    Type: Enchantment
+    Casting Time: 1 action
+    Range: 60 feet
+    Components: V, S, M (a small, straight piece of iron)
+    Duration: Concentration, up to 1 minute
+    Description:
+      Choose a humanoid that you can see within range. The target must succeed
+      on a W isdom saving throw or be paralyzed for the duration. At the end of
+      each of its turns, the target can make another Wisdom saving throw. On a
+      success, the spell ends on the target.
+    At Higher Levels:
+      3rd level or higher:
+        you can target one additional humanoid for each slot level above 2nd.
+        The humanoids must be within 30 feet of each other when you target them.
+
+
+  - Animate Dead:
+    Level: 3
+    Type: Necromancy
+    Casting Time: 1 minute
+    Range: 10 feet
+    Components: V, S, M (drop of blood, piece of flesh, and pinch of bone dust)
+    Duration: Instantaneous
+    Description:
+      This spell creates an undead servant. Choose a pile of bones or a corpse
+      of a Medium or Small humanoid within range. Your spell imbues the target
+      with a foul mimicry of life, raising it as an undead creature. The target
+      becomes a skeleton if you chose bones or a zombie if you chose a corpse
+      (the DM has the creature’s game statistics). On each of your turns, you
+      can use a bonus action to mentally command any creature you made with this
+      spell if the creature is within 60 feet of you (if you control multiple
+      creatures, you can command any or all of them at the same time, issuing
+      the same command to each one). You decide what action the creature will
+      take and where it will move during its next turn, or you can issue a
+      general command, such as to guard a particular chamber or corridor.
+      If you issue no commands, the creature only defends itself against hostile
+      creatures. Once given an order, the creature continues to follow it until
+      its task is complete.
+      The creature is under your control for 24 hours, after which it stops
+      obeying any command you’ve given it. To maintain control of the creature
+      for another 24 hours, you must cast this spell on the creature again
+      before the current 24-hour period ends. This use of the spell reasserts
+      your control over up to four creatures you have animated with this spell,
+      rather than animating a new one.
+    At Higher Levels:
+        4th level or higher:
+          You animate or reassert control over two additional undead creatures
+          for each slot level above 3rd. Each of the creatures must come from a
+          different corpse or pile of bones.
+
+  - Vampiric Touch:
+    Level: 3
+    Type: Necromancy
+    Casting Time: 1 action
+    Range: Self
+    Components: V, S
+    Duration: Concentration, up to 1 minute
+    Description:
+      The touch of your shadow-wreathed hand can siphon life force from others
+      to heal your wounds. Make a melee spell attack against a creature within
+      your reach. On a hit, the target takes 3d6 necrotic damage, and you regain
+      hit points equal to half the amount of necrotic damage dealt. Until the
+      spell ends, you can make the attack again on each of your turns as an
+      action.
+    At Higher Levels:
+      4th level  or higher: +1d6 for each slot level above 3rd.
+
+
+  - Spirit Guardians:
+    Level: 3rd
+    Type: Conjuration
+    Casting Time: 1 action
+    Range: Self (15-foot radius)
+    Components: V, S, M (a holy symbol)
+    Duration: Concentration, up to 10 minutes
+    Description:
+      You call forth spirits to protect you. They flit around you to a distance
+      of 15 feet for the duration. If you are good or neutral, their spectral
+      form appears angelic or fey (your choice). If you are evil, they appear
+      fiendish. When you cast this spell, you can designate any number of
+      creatures you can see to be unaffected by it. An affected creature’s
+      speed is halved in the area, and when the creature enters the area for the
+      first time on a turn or starts its turn there, it must make a Wisdom
+      saving throw. On a failed save, the creature takes 3d8 necrotic damage. On
+      a successful save, the creature takes half as much damage.
+    At Higher Levels:
+      4th level or higher: +1d8 for each slot level above 3rd.
+
+  - Feign Death:
+    Level: 3rd
+    Type: Necromancy (ritual)
+    Casting Time: 1 action
+    Range: Touch
+    Components: V, S, M (a pinch of graveyard dirt)
+    Duration: 1 hour
+    Description:
+      You touch a willing creature and put it into a cataleptic state that is
+      indistinguishable from death. For the spell’s duration, or until you use
+      an action to touch the target and dismiss the spell, the target appears
+      dead to all outward inspection and to spells used to determine the
+      target’s status. The target is blinded and incapacitated, and its speed
+      drops to 0. The target has resistance to all damage except psychic damage.
+      If the target is diseased or poisoned when you cast the spell, or becomes
+      diseased or poisoned while under the spell’s effect, the disease and
+      poison have no effect until the spell ends.
+
+  - SpeakwithDead:
+    Level: 3
+    Type: Necromancy
+    Casting Time: 1 action
+    Range: 10 feet
+    Components: V, S, M (burning incense)
+    Duration: 10 minutes
+    Description:
+      You grant the semblance of life and intelligence to a corpse of your
+      choice within range, allowing it to answer the questions you pose. The
+      corpse must still have a mouth and can’t be undead. The spell fails if the
+      corpse was the target of this spell within the last 10 days. Until the
+      spell ends, you can ask the corpse up to five questions. The corpse knows
+      only what it knew in life, including the languages it knew. Answers are
+      usually brief, cryptic, or repetitive, and the corpse is under no
+      compulsion to offer a truthful answer if you are hostile to it or it
+      recognizes you as an enemy. This spell doesn’t return the creature’s soul
+      to its body, only its animating spirit. Thus, the corpse can’t learn new
+      information, doesn’t comprehend anything that has happened since it died,
+      and can’t speculate about future events.

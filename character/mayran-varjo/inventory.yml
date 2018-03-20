@@ -12,9 +12,6 @@
 -----------
 Inventory:
 
-  , a trophy taken from
-a fallen enemy (a dagger, broken blade, or piece of a banner), a set of bone dice or deck of cards, a set of com m on clothes, and a belt pouch containing 10 gp
-
   - General:
     - backpack
     - blanket
@@ -23,6 +20,7 @@ a fallen enemy (a dagger, broken blade, or piece of a banner), a set of bone dic
     - censer
     - vestments
     - waterskin
+    - bone dice
     - candles:
       quantity: 10
     - blocks of incense:

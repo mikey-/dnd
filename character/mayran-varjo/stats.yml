@@ -18,13 +18,17 @@ Health:
   Hit Dice: 1d8
   Hit Points History:
     Level 1: 10
+    Level 2: 17 (4+3)
+    Level 3: 26 (7+3)
+    Level 4: 36 (7+3)
+    Level 5: 44 (5+3)
   Damage Resisances:
     Acid
 
 ------------
 
 Current Status:
-  Hit Points: 10/10 ()
+  Hit Points: 44/44 ()
   Death Saves Passed: 0/3
   Death Saves Failed: 0/3
   Effects:
@@ -38,8 +42,8 @@ Party Health:
 Level: 1
 
 Strength: 10 (+0)
-Dexterity: 14 (+2)
-Constitution: 15 (+2)
+Dexterity: 15 (+2)
+Constitution: 16 (+3)
 Intelligence: 8 (-1)
 Wisdom: 16 (+3)
 Charisma: 10 (+0)
@@ -57,8 +61,8 @@ Saving Throws:
   Dexterity: 2
   Constitution: 2
   Intelligence: -1
-  Wisdom: 5
-  Charisma: 2
+  Wisdom: 6
+  Charisma: 3
 
 Proficiencies:
  - Weapon: Simple, Martial
@@ -70,17 +74,17 @@ Skills:
   Acrobatics: 2
   Animal Handling: 3
   Arcana: -1
-  Althetics: 2*
+  Althetics: 3*
   Deception: 0
   History: -1
   Insight: 3
-  Intimidation: 2*
+  Intimidation: 3*
   Investigation: -1
-  Medicine: 5*
+  Medicine: 6*
   Narture: -1
   Perception: 3
   Performance: 0
-  Persuasion: 2*
+  Persuasion: 3*
   Religion: -1
   Sleight of Hand: 2
   Stealth: 2
@@ -91,16 +95,16 @@ Skills:
 Armour Class: 18
 Initiative: +2
 Speed: 30
-Proficiency bonus: +2
+Proficiency bonus: +3
 
 Spellcasting Ability: Wisdom
-Spell Attack Bonus: +5 (proficiency bonus + Spellcasting Ability modifier)
-Spell Save DC: 13 (8 + proficiency bonus + Spellcasting Ability modifier)
+Spell Attack Bonus: +6 (proficiency bonus + Spellcasting Ability modifier)
+Spell Save DC: 14 (8 + proficiency bonus + Spellcasting Ability modifier)
 
 Attacking:
-  - Attack Bonus: +2 (Proficiency Bonus + Ability (Strength) Bonus)
+  - Attack Bonus: +3 (Proficiency Bonus + Ability (Strength) Bonus)
     - add your attack bonus to attack and rolls
-  - Finesse Attack Bonus: +3 (Proficiency Bonus + Ability (Dexterity) Bonus)
+  - Finesse Attack Bonus: +5 (Proficiency Bonus + Ability (Dexterity) Bonus)
     - add your attack bonus to attack and damage rolls
 
 -------------------------
@@ -111,7 +115,7 @@ Racial Features:
     Weapon Exhalation: 5' X 30' Line
     Save: Dexterity
     DC:
-      - 12 (8 + Constitution modifier + proficiency bonus)
+      - 14 (8 + Constitution modifier + proficiency bonus)
     Failed Saving Throw:
       Creature takes 2d6 damage on a failed save
     Successful Saving Throw:
