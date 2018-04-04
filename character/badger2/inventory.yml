@@ -10,12 +10,15 @@
  ░           ░      ░     ░  ░         ░              ░ ░     ░     ░ ░
                    ░                                                ░ ░
 -----------
+
+From the High FOREST
+
 Inventory:
 
   - General:
     Backpack: 1
     Waterskin: 1
-    Gold: 10
+    Gold: 17
     Pouch:	1
     Cencer:	1
     Incense:	2
@@ -27,6 +30,8 @@ Inventory:
     Holy Symbol:
       Type: Musical Instrument
       Description: Pan Pipes
+    Map to pan's temple
+    Map to upper class district
 
 
   - ARMOUR:
