@@ -48,11 +48,17 @@ Intelligence: 8 (-1)
 Wisdom: 16 (+3)
 Charisma: 10 (+0)
 
-Points Buy: 27
+Point Buy: 27
 16 wis: 27 - 10 = 17
 15 cons: 17 - 9 = 8
 14 dex: 8 - 7 = 1
 10 char: 1 - 1 = 0
+10 str: 0 - 0 = 0
+8 int: 0 - 0 = 0
+
+Racial Stat Bonus:
+  +2 Strength
+  +1 Charisma
 
 Passive Wisdom (Perception): 13 (10 + Wisdom Ability Modifier)
 
