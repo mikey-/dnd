@@ -36,7 +36,7 @@ Known Cantrips:
     - Thaumaturgy
 
 Prepared Cleric Spells:
-  Total Time to Prepare: 13
+  Total Time to Prepare: 26
   - Inflict Wounds
   - Shield of Faith
   - Cure Wounds
@@ -66,7 +66,8 @@ cleric spells.
 Cantrips:
   - Necromancy Cantrips:
     - Chill Touch:
-      Type: Necromancy cantrip
+      Level: Cantrip
+      Type: Necromancy
       Casting Time: 1 action
       Range: 120 feet
       Components: V, S
@@ -84,7 +85,8 @@ Cantrips:
 
   - Cleric Cantrips:
     - Guidance:
-      Type: Divination cantrip
+      Level: Cantrip
+      Type: Divination
       Casting Time: 1 action
       Range: Touch
       Components: V, S
@@ -96,7 +98,8 @@ Cantrips:
         after making the ability check. The spell then ends.
 
     - Mending:
-      Type: Transmutation cantrip
+      Level: Cantrip
+      Type: Transmutation
       Casting Time: 1 minute
       Range: Touch
       Components: V, S, M (two lodestones)
@@ -120,7 +123,8 @@ Cantrips:
         This spell has no effect on undead or constructs.
 
     - Sacred Flame:
-      Type: Evocation cantrip
+      Level: Evocation
+      Type: cantrip
       Casting Time: 1 action
       Range: 60 feet
       Components: V, S
@@ -210,7 +214,7 @@ Spells:
       when you target them.
 
   - Cure Wounds:
-    Level: 1st-level
+    Level: 1
     Type: evocation
     Casting Time: 1 action
     Range: Touch
@@ -338,7 +342,7 @@ Spells:
 
 
   - Spirit Guardians:
-    Level: 3rd
+    Level: 3
     Type: Conjuration
     Casting Time: 1 action
     Range: Self (15-foot radius)
@@ -358,7 +362,7 @@ Spells:
       4th level or higher: +1d8 for each slot level above 3rd.
 
   - Feign Death:
-    Level: 3rd
+    Level: 3
     Type: Necromancy (ritual)
     Casting Time: 1 action
     Range: Touch
