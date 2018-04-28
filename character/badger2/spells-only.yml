@@ -219,7 +219,7 @@ Spells:
     Duration: Instantaneous
     Description:
       Heal target that you can see within range for 1d4 + your spellcasting
-      ability modifier (+3). This spell has no effect on undead or constructs.
+      ability modifier (+2). This spell has no effect on undead or constructs.
     At Higher Levels:
       2nd level or higher: the healing increases by 1d4 for each slot level
       above 1st.
@@ -231,7 +231,7 @@ Spells:
     Range: Touch
     Components: V, S
     Description:
-      heal 1d8 + your spell casting ability modifier (+3).
+      heal 1d8 + your spell casting ability modifier (+2).
       This spell has no effect on undead or constructs.
     At Higher Levels:
       2nd level or higher, +1d8 for each slot level above 1st.

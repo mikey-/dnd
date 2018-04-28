@@ -49,7 +49,7 @@ Party Health:
 ------------
 
 Level: 1
-XP: 60
+XP: 110
 
 Strength: 13 (+ 1)
 Dexterity: 13 (+ 1)
@@ -96,11 +96,11 @@ Speak with SmallBeasts:
   or smaller beasts.
 
 Forest gnomes love animals and often keep:
-     - squirrels
-     - badgers
-     - rabbits
-     - moles
-     - woodpeckers
+  - squirrels
+  - badgers
+  - rabbits
+  - moles
+  - woodpeckers
 
 Saving Throws:
   Strength: 1

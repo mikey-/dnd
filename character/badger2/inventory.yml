@@ -14,24 +14,24 @@
 From the High FOREST
 
 Inventory:
-
   - General:
     Backpack: 1
     Waterskin: 1
-    Gold: 7
+    Gold: 17
     Pouch:	1
     Cencer:	1
     Incense:	2
-    Rations: (1 day)	10
-    Rope: hempen	1
+    Rations: (5 days)	50
+    Hempen Rope:	1
     Vestements:	1
     Tinderbox:	1
     Component Pouch: 1
     Holy Symbol:
       Type: Musical Instrument
       Description: Pan Pipes
-    Map to pan's temple
-    Map to upper class district
+    Map to pan's temple: 1
+    Map to upper class district: 1
+    Potion of Healing: 1
 
 
   - ARMOUR:
