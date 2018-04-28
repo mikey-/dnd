@@ -1,0 +1,69 @@
+-----------
+ ██▓ ███▄    █ ██▒   █▓▓█████  ███▄    █ ▄▄▄█████▓ ▒█████   ██▀███ ▓██   ██▓
+▓██▒ ██ ▀█   █▓██░   █▒▓█   ▀  ██ ▀█   █ ▓  ██▒ ▓▒▒██▒  ██▒▓██ ▒ ██▒▒██  ██▒
+▒██▒▓██  ▀█ ██▒▓██  █▒░▒███   ▓██  ▀█ ██▒▒ ▓██░ ▒░▒██░  ██▒▓██ ░▄█ ▒ ▒██ ██░
+░██░▓██▒  ▐▌██▒ ▒██ █░░▒▓█  ▄ ▓██▒  ▐▌██▒░ ▓██▓ ░ ▒██   ██░▒██▀▀█▄   ░ ▐██▓░
+░██░▒██░   ▓██░  ▒▀█░  ░▒████▒▒██░   ▓██░  ▒██▒ ░ ░ ████▓▒░░██▓ ▒██▒ ░ ██▒▓░
+░▓  ░ ▒░   ▒ ▒   ░ ▐░  ░░ ▒░ ░░ ▒░   ▒ ▒   ▒ ░░   ░ ▒░▒░▒░ ░ ▒▓ ░▒▓░  ██▒▒▒
+ ▒ ░░ ░░   ░ ▒░  ░ ░░   ░ ░  ░░ ░░   ░ ▒░    ░      ░ ▒ ▒░   ░▒ ░ ▒░▓██ ░▒░
+ ▒ ░   ░   ░ ░     ░░     ░      ░   ░ ░   ░      ░ ░ ░ ▒    ░░   ░ ▒ ▒ ░░
+ ░           ░      ░     ░  ░         ░              ░ ░     ░     ░ ░
+                   ░                                                ░ ░
+-----------
+Inventory:
+
+  - General:
+    - backpack
+    - blanket
+    - tinderbox
+    - alms box
+    - censer
+    - vestments
+    - waterskin
+    - bone dice
+    - candles:
+      quantity: 10
+    - blocks of incense:
+      quantity: 2
+    - rations:
+      qantity: 2
+    - Holy Symbol:
+      Type: Emblem, Weapon
+      Description: 9-stranded whip, with barbed strands.
+
+  - ARMOUR:
+    EQUIPED:
+      - scale mail
+      - shield
+    armour_list:
+      - shield
+        - type: shield
+        - base_AC: 2
+      - scale mail:
+        - type: medium
+        - base_AC: 14
+        - max_dex_bonus: 2
+        - weight: 45
+        - stealth_disadvantage: yes
+
+  - WEAPONS:
+    EQUIPED: whip
+    weapon_list:
+      - whip:
+        reach: 10'
+        hit_modifier: 0
+        base_damage: 1d4
+        damage_type: slashing
+        damage_modifer: 0
+        Finesse: yes
+        type: martial
+        weight:
+      - warhammer:
+        hit_modifier: 0
+        base_damage: 1d8
+        damage_type: bludgeoning
+        damage_modifer: 0
+        versatile: yes
+        versatile_damage: 1d10
+        type: martial
+        weight:

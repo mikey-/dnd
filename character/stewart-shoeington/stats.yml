@@ -1,0 +1,192 @@
+------------
+  ██████ ▄▄▄█████▓ ▄▄▄     ▄▄▄█████▓  ██████
+▒██    ▒ ▓  ██▒ ▓▒▒████▄   ▓  ██▒ ▓▒▒██    ▒
+░ ▓██▄   ▒ ▓██░ ▒░▒██  ▀█▄ ▒ ▓██░ ▒░░ ▓██▄
+  ▒   ██▒░ ▓██▓ ░ ░██▄▄▄▄██░ ▓██▓ ░   ▒   ██▒
+▒██████▒▒  ▒██▒ ░  ▓█   ▓██▒ ▒██▒ ░ ▒██████▒▒
+▒ ▒▓▒ ▒ ░  ▒ ░░    ▒▒   ▓▒█░ ▒ ░░   ▒ ▒▓▒ ▒ ░
+░ ░▒  ░ ░    ░      ▒   ▒▒ ░   ░    ░ ░▒  ░ ░
+░  ░  ░    ░        ░   ▒    ░      ░  ░  ░
+      ░                 ░  ░              ░
+------------
+
+INSIPRATION POINTS: 0
+
+------------
+
+Health:
+  Hit Dice: 1d8
+  Hit Points History:
+    Level 1: 10
+    Level 2: 17 (4+3)
+    Level 3: 26 (7+3)
+    Level 4: 36 (7+3)
+    Level 5: 44 (5+3)
+  Damage Resisances:
+    Acid
+
+------------
+
+Current Status:
+  Hit Points: 44/44 ()
+  Death Saves Passed: 0/3
+  Death Saves Failed: 0/3
+  Effects:
+
+------------
+
+Party Health:
+
+------------
+
+Level: 1
+
+Strength: 10 (+0)
+Dexterity: 15 (+2)
+Constitution: 16 (+3)
+Intelligence: 8 (-1)
+Wisdom: 16 (+3)
+Charisma: 10 (+0)
+
+Point Buy: 27
+16 wis: 27 - 10 = 17
+15 cons: 17 - 9 = 8
+14 dex: 8 - 7 = 1
+10 char: 1 - 1 = 0
+10 str: 0 - 0 = 0
+8 int: 0 - 0 = 0
+
+Racial Stat Bonus:
+  +2 Strength
+  +1 Charisma
+
+Passive Wisdom (Perception): 13 (10 + Wisdom Ability Modifier)
+
+Saving Throws:
+  Strength: 0
+  Dexterity: 2
+  Constitution: 2
+  Intelligence: -1
+  Wisdom: 6
+  Charisma: 3
+
+Proficiencies:
+ - Weapon: Simple, Martial
+ - Armor: Light armor, medium armor, shields
+ - Tools: vehicles (land), Bone Dice
+ - Saving Throws: Wisdom, Charisma
+
+Skills:
+  Acrobatics: 2
+  Animal Handling: 3
+  Arcana: -1
+  Althetics: 3*
+  Deception: 0
+  History: -1
+  Insight: 3
+  Intimidation: 3*
+  Investigation: -1
+  Medicine: 6*
+  Narture: -1
+  Perception: 3
+  Performance: 0
+  Persuasion: 3*
+  Religion: -1
+  Sleight of Hand: 2
+  Stealth: 2
+  Survival: 3
+
+-------------
+
+Armour Class: 18
+Initiative: +2
+Speed: 30
+Proficiency bonus: +3
+
+Spellcasting Ability: Wisdom
+Spell Attack Bonus: +6 (proficiency bonus + Spellcasting Ability modifier)
+Spell Save DC: 14 (8 + proficiency bonus + Spellcasting Ability modifier)
+
+Attacking:
+  - Attack Bonus: +3 (Proficiency Bonus + Ability (Strength) Bonus)
+    - add your attack bonus to attack and rolls
+  - Finesse Attack Bonus: +5 (Proficiency Bonus + Ability (Dexterity) Bonus)
+    - add your attack bonus to attack and damage rolls
+
+-------------------------
+Racial Features:
+  Breath Weapon:
+    Dragon: Black
+    Damage Type: Acid
+    Weapon Exhalation: 5' X 30' Line
+    Save: Dexterity
+    DC:
+      - 14 (8 + Constitution modifier + proficiency bonus)
+    Failed Saving Throw:
+      Creature takes 2d6 damage on a failed save
+    Successful Saving Throw:
+      Half as much damage on a successful
+    At Higher Levels:
+      6th level: 3d6
+      11th level: 4d6
+      16th level: 5d6
+    Notes:
+      After you use your breath weapon, you can’t use it again until you
+      complete a short or long rest.
+
+-------------------------
+Class Features:
+  Reaper:
+    When the cleric casts a necromancy cantrip that normally targets only one
+    creature, the spell can instead target two creatures within range and 5 feet
+    of each other.
+
+  Channel Divinity:
+    At 2nd level, you gain the ability to channel divine energy directly from
+    your deity, using that energy to fuel magical effects. You start with two
+    such effects, Turn Undead and an effect determined by your domain. Some
+    domains grant you additional effects as you advance in levels, as noted
+    in the domain description.
+    When you use your Channel Divinity, you choose which effect to create. You
+    must then finish a short or long rest to use your Channel Divinity again.
+    Some Channel Divinity effects require saving throws. When you use such an
+    effect from this class, the DC equals your cleric spell save DC. Beginning
+    at 6th level, you can use your Channel Divinity twice between rests, and
+    beginning at 18th level, u can use it three times between rests. When you
+    finish a short or long rest, you regain your expended uses.
+
+  Class Channel Divinity:
+    Name: Turn Undead
+    Usage: Once per short or long rest
+    Description:
+      As an action, you present your holy symbol and speak a prayer censuring
+      the undead. Each undead that can see or hear you within 30 feet of you
+      must make a Wisdom saving throw. If the creature fails its saving throw,
+      it is turned for 1 minute or until it takes any damage. A turned creature
+      must spend its turns trying to move as far away from you as it can, and it
+      can’t willingly move to a space within 30 feet of you.
+      It also can’t take reactions! For its action, it can use only the Dash
+      action or try to escape from an effect that prevents it from moving.
+      If there’s nowhere to move, the creature can use the Dodge action.
+
+    At Higher Levels:
+      5th Level:
+        when an undead fails its saving throw against your Turn Undead feature,
+        the creature is instantly destroyed if it's challenge rating is at or
+        below
+            Cleric Level 5: 1/2 or lower
+            Cleric Level 8: 1 or lower
+            Cleric Level 11: 2 or lower
+            Cleric Level 14: 3 or lower
+            Cleric Level 17: 4 or lower
+
+    Divine Domain Channel Divinity:
+      Name: Touch of Death
+      Usage: Once per
+      Starting at 2nd level, the cleric can use Channel Divinity to destroy
+      another creatures life force by touch. When the cleric hits a creature
+      with a melee attack, the cleric can use Channel Divinity to deal extra
+      necrotic damage to the target. The damage equals 5 + twice their cleric
+      level
+
+  ------------------------------------------
