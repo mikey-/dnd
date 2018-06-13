@@ -11,17 +11,16 @@
                    ░                                                ░ ░
 -----------
 
-From the High FOREST
-
 Inventory:
   - General:
     Backpack: 1
     Waterskin: 1
-    Gold: 17
+    Gold: 0
+    Copper: 91
     Pouch:	1
     Cencer:	1
     Incense:	2
-    Rations: (5 days)	50
+    Rations: (1 days)	10
     Hempen Rope:	1
     Vestements:	1
     Tinderbox:	1
@@ -31,11 +30,18 @@ Inventory:
       Description: Pan Pipes
     Map to pan's temple: 1
     Map to upper class district: 1
-    Potion of Healing: 1
+    Torch: 1
+    Sack: 1
+    Medicinal Components: 1lb
 
+  Pending:
+    - Bottles: 16
+
+  - Potions:
+    Healing: 1
 
   - ARMOUR:
-    EQUIPED: plate
+    EQUIPED: Chain Mail
     armour_list:
       - Chain Mail:
         - type: heavy
@@ -51,10 +57,17 @@ Inventory:
     - greatclub:
       melee:
         Range: 20/60 ft
-        hit_modifier: +3
+        hit_modifier:
+          attacking_ability_modifier:
+            - strength: +2
+            - wisdom: +2
+          proficiency_bonus: +2
         base_damage: 1d8
         damage_type: Bludgeoning
-        damage_modifer: +2
+        damage_modifer:
+          attacking_ability_modifier:
+            - strength: +2
+            - wisdom: +2
         Finesse: no
         Two-handed: yes
         Versatile: no

@@ -33,11 +33,11 @@ Party Health:
     death saves passed: 0
 
   Hanzo:
-    status: Healthy 12/12 (0)
+    status: Healthy 0/12 (0)
     death saves failed: 0
     death saves passed: 0
 
-  Fridge:
+  Flidge:
     status: Healthy 14/14 (0)
     death saves failed: 0
     death saves passed: 0
@@ -49,7 +49,7 @@ Party Health:
 ------------
 
 Level: 1
-XP: 110
+XP: 225
 
 Strength: 13 (+ 1)
 Dexterity: 13 (+ 1)
@@ -73,9 +73,9 @@ Spell Save DC: 12 (8 + proficiency bonus + Spellcasting Ability modifier)
 Attacking:
  - Attack Bonus: +3 (Proficiency Bonus + Ability (Strength) Bonus)
    - add your attack bonus to 'to hit' rolls
-   - Changes to +4 after casting T druid cantrip
+   - Changes to +4 after casting druid cantrip
 
-Languages: Gnomish, Common, Elvish, Goblin
+Languages: Gnomish, Common, fish, Goblin
 
 Proficiencies:
  - Weapon: Simple
@@ -129,3 +129,5 @@ Skills:
   Sleight of Hand: 1
   Stealth: 1
   Survival: 2
+
+From the High FOREST

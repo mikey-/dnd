@@ -1,5 +1,12 @@
 ---
-Wise old wabbit:
-  name: warren g
-  age: old
-  status: healthy
+#Wise old wabbit:
+#  name: warren g
+#  age: old
+#  status: healthy
+
+Hungry Caterpillar:
+  name: Toukka
+  age: idk
+  status:
+    - hungry
+    - cocooned
